@@ -1,0 +1,3580 @@
+{
+  "A1": [
+    {
+      "title": "Nouns · Gender and singular/plural",
+      "rule": "Learn each noun with its gender and plural form. Many masculine nouns end in a consonant, many feminine nouns in -a and many neuter nouns in -o or -e. These are clues. For example, mężczyzna is masculine despite ending in -a.",
+      "examples": [
+        {
+          "polish": "To jest **jeden stół[[end:∅]]**.",
+          "english": "This is one table."
+        },
+        {
+          "polish": "To są **dwa stoł[[end:y]]**.",
+          "english": "These are two tables."
+        },
+        {
+          "polish": "To jest **jedna książk[[end:a]]**.",
+          "english": "This is one book."
+        },
+        {
+          "polish": "To są **dwie książk[[end:i]]**.",
+          "english": "These are two books."
+        },
+        {
+          "polish": "To jest **jedno okn[[end:o]]**.",
+          "english": "This is one window."
+        },
+        {
+          "polish": "To są **dwa okn[[end:a]]**.",
+          "english": "These are two windows."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Gender and number in the nominative",
+          "headers": [
+            "Gender or group",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Masculine inanimate",
+              "ten stół[[end:∅]]",
+              "te stoł[[end:y]]"
+            ],
+            [
+              "Masculine personal",
+              "ten student[[end:∅]]",
+              "ci [[stem:studenc]][[end:i]]"
+            ],
+            [
+              "Feminine",
+              "ta książk[[end:a]]",
+              "te książk[[end:i]]"
+            ],
+            [
+              "Neuter",
+              "to okn[[end:o]]",
+              "te okn[[end:a]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Gender and number in the nominative · highlighted endings / form segments",
+          "headers": [
+            "Gender or group",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Masculine inanimate",
+              "[[end:∅]]",
+              "[[end:y]]"
+            ],
+            [
+              "Masculine personal",
+              "[[end:∅]]",
+              "[[end:i]]"
+            ],
+            [
+              "Feminine",
+              "[[end:a]]",
+              "[[end:i]]"
+            ],
+            [
+              "Neuter",
+              "[[end:o]]",
+              "[[end:a]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Adjectives · Gender and number",
+      "rule": "The adjective follows the gender and number of its noun. Compare mały, mała and małe in the singular. In the nominative plural, małe is used with things and mali with masculine-personal nouns such as chłopcy.",
+      "examples": [
+        {
+          "polish": "To jest **mał[[end:y]] dom**.",
+          "english": "This is a small house."
+        },
+        {
+          "polish": "To jest **mał[[end:a]] torb[[end:a]]**.",
+          "english": "This is a small bag."
+        },
+        {
+          "polish": "To jest **mał[[end:e]] okn[[end:o]]**.",
+          "english": "This is a small window."
+        },
+        {
+          "polish": "To są **mał[[end:e]] dom[[end:y]]**.",
+          "english": "These are small houses."
+        },
+        {
+          "polish": "To są **mał[[end:e]] torb[[end:y]]**.",
+          "english": "These are small bags."
+        },
+        {
+          "polish": "To są **[[stem:mal]][[end:i]] chłopc[[end:y]]**.",
+          "english": "These are little boys."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Nominative agreement",
+          "headers": [
+            "Gender or group",
+            "Noun phrase"
+          ],
+          "rows": [
+            [
+              "Masculine singular",
+              "mał[[end:y]] dom"
+            ],
+            [
+              "Feminine singular",
+              "mał[[end:a]] torb[[end:a]]"
+            ],
+            [
+              "Neuter singular",
+              "mał[[end:e]] okn[[end:o]]"
+            ],
+            [
+              "Masculine-personal plural",
+              "[[stem:mal]][[end:i]] chłopc[[end:y]]"
+            ],
+            [
+              "Other plural",
+              "mał[[end:e]] dom[[end:y]] / mał[[end:e]] torb[[end:y]] / mał[[end:e]] okn[[end:a]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Nominative agreement · highlighted endings / form segments",
+          "headers": [
+            "Gender or group",
+            "Noun phrase"
+          ],
+          "rows": [
+            [
+              "Masculine singular",
+              "[[end:y]]"
+            ],
+            [
+              "Feminine singular",
+              "[[end:a]]"
+            ],
+            [
+              "Neuter singular",
+              "[[end:e]] / [[end:o]]"
+            ],
+            [
+              "Masculine-personal plural",
+              "[[end:i]] / [[end:y]]"
+            ],
+            [
+              "Other plural",
+              "[[end:e]] / [[end:y]] / [[end:a]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Nominative and adjective agreement",
+      "rule": "Use the nominative for the subject and to identify something after to jest. Match the adjective to the noun's gender and number.",
+      "examples": [
+        {
+          "polish": "To jest **now[[end:a]] książk[[end:a]]**.",
+          "english": "This is a new book."
+        },
+        {
+          "polish": "To jest **mał[[end:e]] okn[[end:o]]**.",
+          "english": "This is a small window."
+        },
+        {
+          "polish": "To są **duże dom[[end:y]]**.",
+          "english": "These are big houses."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Nominative agreement",
+          "headers": [
+            "Gender or group",
+            "Noun phrase"
+          ],
+          "rows": [
+            [
+              "Masculine singular",
+              "mał[[end:y]] dom"
+            ],
+            [
+              "Feminine singular",
+              "mał[[end:a]] torb[[end:a]]"
+            ],
+            [
+              "Neuter singular",
+              "mał[[end:e]] okn[[end:o]]"
+            ],
+            [
+              "Masculine-personal plural",
+              "[[stem:mal]][[end:i]] chłopc[[end:y]]"
+            ],
+            [
+              "Other plural",
+              "mał[[end:e]] dom[[end:y]] / mał[[end:e]] torb[[end:y]] / mał[[end:e]] okn[[end:a]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Nominative agreement · highlighted endings / form segments",
+          "headers": [
+            "Gender or group",
+            "Noun phrase"
+          ],
+          "rows": [
+            [
+              "Masculine singular",
+              "[[end:y]]"
+            ],
+            [
+              "Feminine singular",
+              "[[end:a]]"
+            ],
+            [
+              "Neuter singular",
+              "[[end:e]] / [[end:o]]"
+            ],
+            [
+              "Masculine-personal plural",
+              "[[end:i]] / [[end:y]]"
+            ],
+            [
+              "Other plural",
+              "[[end:e]] / [[end:y]] / [[end:a]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Verbs · Six persons in the present",
+      "rule": "First learn the forms of czytać for all six persons. The ending often tells you who is doing the action. In everyday Polish, subject pronouns such as ja and my can be left out when the context makes them clear.",
+      "examples": [
+        {
+          "polish": "Ja **czyt[[end:am]]** książk[[end:ę]].",
+          "english": "I am reading a book."
+        },
+        {
+          "polish": "Ty **czyt[[end:asz]]** gazetę.",
+          "english": "You are reading a newspaper. (one person)"
+        },
+        {
+          "polish": "On **czyt[[end:a]]** list.",
+          "english": "He is reading a letter."
+        },
+        {
+          "polish": "Ona **czyt[[end:a]]** wiadomość.",
+          "english": "She is reading a message."
+        },
+        {
+          "polish": "Dziecko **czyt[[end:a]]** bajkę.",
+          "english": "The child is reading a story. The neuter noun dziecko takes the same form as ono."
+        },
+        {
+          "polish": "My **czyt[[end:amy]]** razem.",
+          "english": "We read together."
+        },
+        {
+          "polish": "Wy **czyt[[end:acie]]** po polsku.",
+          "english": "You read in Polish. (more than one person)"
+        },
+        {
+          "polish": "Oni **czyt[[end:ają]]** w domu.",
+          "english": "They read at home. (masculine-personal group)"
+        },
+        {
+          "polish": "One **czyt[[end:ają]]** w bibliotece.",
+          "english": "They read in the library. (e.g. a group of women)"
+        }
+      ],
+      "tables": [
+        {
+          "title": "czytać · all present forms",
+          "headers": [
+            "Person",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "First",
+              "ja czyt[[end:am]]",
+              "my czyt[[end:amy]]"
+            ],
+            [
+              "Second",
+              "ty czyt[[end:asz]]",
+              "wy czyt[[end:acie]]"
+            ],
+            [
+              "Third",
+              "on / ona / ono czyt[[end:a]]",
+              "oni / one czyt[[end:ają]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "czytać · all present forms · highlighted endings / form segments",
+          "headers": [
+            "Person",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "First",
+              "[[end:am]]",
+              "[[end:amy]]"
+            ],
+            [
+              "Second",
+              "[[end:asz]]",
+              "[[end:acie]]"
+            ],
+            [
+              "Third",
+              "[[end:a]]",
+              "[[end:ają]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Verbs · Być and mieć",
+      "rule": "Learn these frequent verbs as complete patterns. In person order ja, ty, on/ona/ono, my, wy, oni/one: być has jestem, jesteś, jest, jesteśmy, jesteście, są. Mieć has mam, masz, ma, mamy, macie, mają.",
+      "examples": [
+        {
+          "polish": "**Jestem** w domu.",
+          "english": "I am at home."
+        },
+        {
+          "polish": "Czy **jesteś** w szkole?",
+          "english": "Are you at school? (one person)"
+        },
+        {
+          "polish": "**Jesteśmy** w sklepie.",
+          "english": "We are in the shop."
+        },
+        {
+          "polish": "Dzieci **są** w domu.",
+          "english": "The children are at home."
+        },
+        {
+          "polish": "**Mam** rower.",
+          "english": "I have a bicycle."
+        },
+        {
+          "polish": "Czy **m[[end:acie]]** bilety?",
+          "english": "Do you have tickets? (more than one person)"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Full present tense",
+          "headers": [
+            "Person",
+            "być (be)",
+            "mieć (have)"
+          ],
+          "rows": [
+            [
+              "ja",
+              "jestem",
+              "m[[end:am]]"
+            ],
+            [
+              "ty",
+              "jesteś",
+              "m[[end:asz]]"
+            ],
+            [
+              "on / ona / ono",
+              "jest",
+              "m[[end:a]]"
+            ],
+            [
+              "my",
+              "jesteśmy",
+              "m[[end:amy]]"
+            ],
+            [
+              "wy",
+              "jesteście",
+              "m[[end:acie]]"
+            ],
+            [
+              "oni / one",
+              "są",
+              "m[[end:ają]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Full present tense · highlighted endings / form segments",
+          "headers": [
+            "Person",
+            "być (be)",
+            "mieć (have)"
+          ],
+          "rows": [
+            [
+              "ja",
+              "—",
+              "[[end:am]]"
+            ],
+            [
+              "ty",
+              "—",
+              "[[end:asz]]"
+            ],
+            [
+              "on / ona / ono",
+              "—",
+              "[[end:a]]"
+            ],
+            [
+              "my",
+              "—",
+              "[[end:amy]]"
+            ],
+            [
+              "wy",
+              "—",
+              "[[end:acie]]"
+            ],
+            [
+              "oni / one",
+              "—",
+              "[[end:ają]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Present tense",
+      "rule": "Czytać is imperfective. Use its present tense for what is happening now or what happens regularly. Polish has six person-and-number slots. On, ona and ono share one form, and oni and one share another. The subject pronoun is often omitted when the verb ending and context identify the subject.",
+      "examples": [
+        {
+          "polish": "Ja **czyt[[end:am]]** książk[[end:ę]].",
+          "english": "I am reading a book."
+        },
+        {
+          "polish": "Ty **czyt[[end:asz]]** gazetę.",
+          "english": "You are reading a newspaper. (one person)"
+        },
+        {
+          "polish": "On **czyt[[end:a]]** list.",
+          "english": "He is reading a letter."
+        },
+        {
+          "polish": "Ona **czyt[[end:a]]** wiadomość.",
+          "english": "She is reading a message."
+        },
+        {
+          "polish": "Dziecko **czyt[[end:a]]** bajkę.",
+          "english": "The child is reading a story. The neuter noun dziecko takes the same form as ono."
+        },
+        {
+          "polish": "My **czyt[[end:amy]]** razem.",
+          "english": "We read together."
+        },
+        {
+          "polish": "Wy **czyt[[end:acie]]** po polsku.",
+          "english": "You read in Polish. (more than one person)"
+        },
+        {
+          "polish": "Oni **czyt[[end:ają]]** w domu.",
+          "english": "They read at home. (masculine-personal group)"
+        },
+        {
+          "polish": "One **czyt[[end:ają]]** w bibliotece.",
+          "english": "They read in the library. (e.g. a group of women)"
+        }
+      ],
+      "tables": [
+        {
+          "title": "czytać · all present forms",
+          "headers": [
+            "Person",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "First",
+              "ja czyt[[end:am]]",
+              "my czyt[[end:amy]]"
+            ],
+            [
+              "Second",
+              "ty czyt[[end:asz]]",
+              "wy czyt[[end:acie]]"
+            ],
+            [
+              "Third",
+              "on / ona / ono czyt[[end:a]]",
+              "oni / one czyt[[end:ają]]"
+            ]
+          ]
+        },
+        {
+          "title": "Other common present patterns",
+          "headers": [
+            "Person",
+            "mówić (speak)",
+            "pisać (write)"
+          ],
+          "rows": [
+            [
+              "ja",
+              "mów[[end:ię]]",
+              "pisz[[end:ę]]"
+            ],
+            [
+              "ty",
+              "mów[[end:isz]]",
+              "pisz[[end:esz]]"
+            ],
+            [
+              "on / ona / ono",
+              "mów[[end:i]]",
+              "pisz[[end:e]]"
+            ],
+            [
+              "my",
+              "mów[[end:imy]]",
+              "pisz[[end:emy]]"
+            ],
+            [
+              "wy",
+              "mów[[end:icie]]",
+              "pisz[[end:ecie]]"
+            ],
+            [
+              "oni / one",
+              "mów[[end:ią]]",
+              "pisz[[end:ą]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "czytać · all present forms · highlighted endings / form segments",
+          "headers": [
+            "Person",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "First",
+              "[[end:am]]",
+              "[[end:amy]]"
+            ],
+            [
+              "Second",
+              "[[end:asz]]",
+              "[[end:acie]]"
+            ],
+            [
+              "Third",
+              "[[end:a]]",
+              "[[end:ają]]"
+            ]
+          ]
+        },
+        {
+          "title": "Other common present patterns · highlighted endings / form segments",
+          "headers": [
+            "Person",
+            "mówić (speak)",
+            "pisać (write)"
+          ],
+          "rows": [
+            [
+              "ja",
+              "[[end:ię]]",
+              "[[end:ę]]"
+            ],
+            [
+              "ty",
+              "[[end:isz]]",
+              "[[end:esz]]"
+            ],
+            [
+              "on / ona / ono",
+              "[[end:i]]",
+              "[[end:e]]"
+            ],
+            [
+              "my",
+              "[[end:imy]]",
+              "[[end:emy]]"
+            ],
+            [
+              "wy",
+              "[[end:icie]]",
+              "[[end:ecie]]"
+            ],
+            [
+              "oni / one",
+              "[[end:ią]]",
+              "[[end:ą]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Accusative and genitive",
+      "rule": "A direct object often takes the accusative. When you negate a verb whose direct object takes the accusative, that object generally takes the genitive.",
+      "examples": [
+        {
+          "polish": "Mam **książk[[end:ę]]**.",
+          "english": "I have a book."
+        },
+        {
+          "polish": "Nie m[[end:am]] **książk[[end:i]]**.",
+          "english": "I don't have a book."
+        },
+        {
+          "polish": "Widzę **kota**.",
+          "english": "I see a cat."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Compare the two object forms",
+          "headers": [
+            "Base phrase",
+            "With mam",
+            "With nie mam"
+          ],
+          "rows": [
+            [
+              "now[[end:a]] książk[[end:a]]",
+              "now[[end:ą]] książk[[end:ę]]",
+              "now[[end:ej]] książk[[end:i]]"
+            ],
+            [
+              "mał[[end:y]] pies[[end:∅]]",
+              "mał[[end:ego]] [[stem:ps]][[end:a]]",
+              "mał[[end:ego]] [[stem:ps]][[end:a]]"
+            ],
+            [
+              "now[[end:y]] rower",
+              "now[[end:y]] rower",
+              "now[[end:ego]] rower[[end:u]]"
+            ],
+            [
+              "mał[[end:e]] okn[[end:o]]",
+              "mał[[end:e]] okn[[end:o]]",
+              "mał[[end:ego]] okn[[end:a]]"
+            ],
+            [
+              "now[[end:e]] książk[[end:i]]",
+              "now[[end:e]] książk[[end:i]]",
+              "now[[end:ych]] [[stem:książek]][[end:∅]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Compare the two object forms · highlighted endings / form segments",
+          "headers": [
+            "Base phrase",
+            "With mam",
+            "With nie mam"
+          ],
+          "rows": [
+            [
+              "now[[end:a]] książk[[end:a]]",
+              "[[end:ą]] / [[end:ę]]",
+              "[[end:ej]] / [[end:i]]"
+            ],
+            [
+              "mał[[end:y]] pies[[end:∅]]",
+              "[[end:ego]] / [[end:a]]",
+              "[[end:ego]] / [[end:a]]"
+            ],
+            [
+              "now[[end:y]] rower",
+              "[[end:y]]",
+              "[[end:ego]] / [[end:u]]"
+            ],
+            [
+              "mał[[end:e]] okn[[end:o]]",
+              "[[end:e]] / [[end:o]]",
+              "[[end:ego]] / [[end:a]]"
+            ],
+            [
+              "now[[end:e]] książk[[end:i]]",
+              "[[end:e]] / [[end:i]]",
+              "[[end:ych]] / [[end:∅]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Noun and adjective · Object and negation",
+      "rule": "Practise the whole phrase. With mieć, a direct object takes the accusative. After nie mieć, it takes the genitive. Change both the adjective and the noun where required.",
+      "examples": [
+        {
+          "polish": "Mam **now[[end:ą]] książk[[end:ę]]**.",
+          "english": "I have a new book."
+        },
+        {
+          "polish": "Nie m[[end:am]] **now[[end:ej]] książk[[end:i]]**.",
+          "english": "I don't have a new book."
+        },
+        {
+          "polish": "Mam **mał[[end:ego]] [[stem:ps]][[end:a]]**.",
+          "english": "I have a small dog."
+        },
+        {
+          "polish": "Nie m[[end:am]] **mał[[end:ego]] [[stem:ps]][[end:a]]**.",
+          "english": "I don't have a small dog. (Here the accusative and genitive look the same.)"
+        },
+        {
+          "polish": "Mam **now[[end:y]] rower**.",
+          "english": "I have a new bicycle."
+        },
+        {
+          "polish": "Nie m[[end:am]] **now[[end:ego]] rower[[end:u]]**.",
+          "english": "I don't have a new bicycle."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Compare the two object forms",
+          "headers": [
+            "Base phrase",
+            "With mam",
+            "With nie mam"
+          ],
+          "rows": [
+            [
+              "now[[end:a]] książk[[end:a]]",
+              "now[[end:ą]] książk[[end:ę]]",
+              "now[[end:ej]] książk[[end:i]]"
+            ],
+            [
+              "mał[[end:y]] pies[[end:∅]]",
+              "mał[[end:ego]] [[stem:ps]][[end:a]]",
+              "mał[[end:ego]] [[stem:ps]][[end:a]]"
+            ],
+            [
+              "now[[end:y]] rower",
+              "now[[end:y]] rower",
+              "now[[end:ego]] rower[[end:u]]"
+            ],
+            [
+              "mał[[end:e]] okn[[end:o]]",
+              "mał[[end:e]] okn[[end:o]]",
+              "mał[[end:ego]] okn[[end:a]]"
+            ],
+            [
+              "now[[end:e]] książk[[end:i]]",
+              "now[[end:e]] książk[[end:i]]",
+              "now[[end:ych]] [[stem:książek]][[end:∅]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Compare the two object forms · highlighted endings / form segments",
+          "headers": [
+            "Base phrase",
+            "With mam",
+            "With nie mam"
+          ],
+          "rows": [
+            [
+              "now[[end:a]] książk[[end:a]]",
+              "[[end:ą]] / [[end:ę]]",
+              "[[end:ej]] / [[end:i]]"
+            ],
+            [
+              "mał[[end:y]] pies[[end:∅]]",
+              "[[end:ego]] / [[end:a]]",
+              "[[end:ego]] / [[end:a]]"
+            ],
+            [
+              "now[[end:y]] rower",
+              "[[end:y]]",
+              "[[end:ego]] / [[end:u]]"
+            ],
+            [
+              "mał[[end:e]] okn[[end:o]]",
+              "[[end:e]] / [[end:o]]",
+              "[[end:ego]] / [[end:a]]"
+            ],
+            [
+              "now[[end:e]] książk[[end:i]]",
+              "[[end:e]] / [[end:i]]",
+              "[[end:ych]] / [[end:∅]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Instrumental and locative",
+      "rule": "Use the instrumental for a profession after być. Use the locative after w or na to say where something is in these examples.",
+      "examples": [
+        {
+          "polish": "Jestem **studentką**.",
+          "english": "I'm a student."
+        },
+        {
+          "polish": "Mieszkam w **Warszawie**.",
+          "english": "I live in Warsaw."
+        },
+        {
+          "polish": "Klucze są na **[[stem:stol]][[end:e]]**.",
+          "english": "The keys are on the table."
+        }
+      ],
+      "tables": [
+        {
+          "title": "From the base phrase to the case form",
+          "headers": [
+            "Base phrase",
+            "Instrumental with z",
+            "Locative with o"
+          ],
+          "rows": [
+            [
+              "mał[[end:e]] miast[[end:o]]",
+              "z mał[[end:ym]] miast[[end:em]]",
+              "o mał[[end:ym]] [[stem:mieści]][[end:e]]"
+            ],
+            [
+              "now[[end:y]] sąsiad",
+              "z now[[end:ym]] sąsiad[[end:em]]",
+              "o now[[end:ym]] [[stem:sąsiedzi]][[end:e]]"
+            ],
+            [
+              "dobr[[end:a]] koleżank[[end:a]]",
+              "z dobr[[end:ą]] koleżank[[end:ą]]",
+              "o dobr[[end:ej]] [[stem:koleżanc]][[end:e]]"
+            ],
+            [
+              "now[[end:e]] książk[[end:i]]",
+              "z now[[end:ymi]] książk[[end:ami]]",
+              "o now[[end:ych]] książk[[end:ach]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "From the base phrase to the case form · highlighted endings / form segments",
+          "headers": [
+            "Base phrase",
+            "Instrumental with z",
+            "Locative with o"
+          ],
+          "rows": [
+            [
+              "mał[[end:e]] miast[[end:o]]",
+              "[[end:ym]] / [[end:em]]",
+              "[[end:ym]] / [[end:e]]"
+            ],
+            [
+              "now[[end:y]] sąsiad",
+              "[[end:ym]] / [[end:em]]",
+              "[[end:ym]] / [[end:e]]"
+            ],
+            [
+              "dobr[[end:a]] koleżank[[end:a]]",
+              "[[end:ą]]",
+              "[[end:ej]] / [[end:e]]"
+            ],
+            [
+              "now[[end:e]] książk[[end:i]]",
+              "[[end:ymi]] / [[end:ami]]",
+              "[[end:ych]] / [[end:ach]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Noun and adjective · With someone or in a place",
+      "rule": "Use the instrumental after z when it means with. Use the locative after w and na in these examples of location. The adjective changes with the noun.",
+      "examples": [
+        {
+          "polish": "Idę z **dobr[[end:ą]] koleżank[[end:ą]]**.",
+          "english": "I'm going with a good friend."
+        },
+        {
+          "polish": "Rozmawiam z **now[[end:ym]] sąsiad[[end:em]]**.",
+          "english": "I'm talking to the new neighbour."
+        },
+        {
+          "polish": "Mieszkamy w **mał[[end:ym]] [[stem:mieści]][[end:e]]**.",
+          "english": "We live in a small town."
+        },
+        {
+          "polish": "Telefon leży na **dużym [[stem:stol]][[end:e]]**.",
+          "english": "The phone is lying on the big table."
+        }
+      ],
+      "tables": [
+        {
+          "title": "From the base phrase to the case form",
+          "headers": [
+            "Base phrase",
+            "Instrumental with z",
+            "Locative with o"
+          ],
+          "rows": [
+            [
+              "mał[[end:e]] miast[[end:o]]",
+              "z mał[[end:ym]] miast[[end:em]]",
+              "o mał[[end:ym]] [[stem:mieści]][[end:e]]"
+            ],
+            [
+              "now[[end:y]] sąsiad",
+              "z now[[end:ym]] sąsiad[[end:em]]",
+              "o now[[end:ym]] [[stem:sąsiedzi]][[end:e]]"
+            ],
+            [
+              "dobr[[end:a]] koleżank[[end:a]]",
+              "z dobr[[end:ą]] koleżank[[end:ą]]",
+              "o dobr[[end:ej]] [[stem:koleżanc]][[end:e]]"
+            ],
+            [
+              "now[[end:e]] książk[[end:i]]",
+              "z now[[end:ymi]] książk[[end:ami]]",
+              "o now[[end:ych]] książk[[end:ach]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "From the base phrase to the case form · highlighted endings / form segments",
+          "headers": [
+            "Base phrase",
+            "Instrumental with z",
+            "Locative with o"
+          ],
+          "rows": [
+            [
+              "mał[[end:e]] miast[[end:o]]",
+              "[[end:ym]] / [[end:em]]",
+              "[[end:ym]] / [[end:e]]"
+            ],
+            [
+              "now[[end:y]] sąsiad",
+              "[[end:ym]] / [[end:em]]",
+              "[[end:ym]] / [[end:e]]"
+            ],
+            [
+              "dobr[[end:a]] koleżank[[end:a]]",
+              "[[end:ą]]",
+              "[[end:ej]] / [[end:e]]"
+            ],
+            [
+              "now[[end:e]] książk[[end:i]]",
+              "[[end:ymi]] / [[end:ami]]",
+              "[[end:ych]] / [[end:ach]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Nouns · Giving and addressing",
+      "rule": "Use the dative for the person receiving something. Use the vocative to address someone directly. Start with familiar forms, then compare all seven cases in Reference · Noun declension.",
+      "examples": [
+        {
+          "polish": "Daję **[[stem:mami]][[end:e]]** kwiaty.",
+          "english": "I'm giving Mum flowers."
+        },
+        {
+          "polish": "Daję **[[stem:taci]][[end:e]]** książk[[end:ę]].",
+          "english": "I'm giving Dad a book."
+        },
+        {
+          "polish": "**Mamo**, chodź tutaj!",
+          "english": "Mum, come here!"
+        },
+        {
+          "polish": "**Tato**, gdzie jesteś?",
+          "english": "Dad, where are you?"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Recipient versus direct address",
+          "headers": [
+            "Nominative",
+            "Dative",
+            "Vocative"
+          ],
+          "rows": [
+            [
+              "mam[[end:a]]",
+              "[[stem:mami]][[end:e]]",
+              "mam[[end:o]]"
+            ],
+            [
+              "tat[[end:a]]",
+              "[[stem:taci]][[end:e]]",
+              "tat[[end:o]]"
+            ],
+            [
+              "brat",
+              "brat[[end:u]]",
+              "[[stem:braci]][[end:e]]"
+            ],
+            [
+              "siostr[[end:a]]",
+              "[[stem:siostrz]][[end:e]]",
+              "siostr[[end:o]]"
+            ],
+            [
+              "Piotr",
+              "Piotr[[end:owi]]",
+              "[[stem:Piotrz]][[end:e]]"
+            ],
+            [
+              "Ann[[end:a]]",
+              "[[stem:Anni]][[end:e]]",
+              "Ann[[end:o]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Recipient versus direct address · highlighted endings / form segments",
+          "headers": [
+            "Nominative",
+            "Dative",
+            "Vocative"
+          ],
+          "rows": [
+            [
+              "mam[[end:a]]",
+              "[[end:e]]",
+              "[[end:o]]"
+            ],
+            [
+              "tat[[end:a]]",
+              "[[end:e]]",
+              "[[end:o]]"
+            ],
+            [
+              "brat",
+              "[[end:u]]",
+              "[[end:e]]"
+            ],
+            [
+              "siostr[[end:a]]",
+              "[[end:e]]",
+              "[[end:o]]"
+            ],
+            [
+              "Piotr",
+              "[[end:owi]]",
+              "[[end:e]]"
+            ],
+            [
+              "Ann[[end:a]]",
+              "[[end:e]]",
+              "[[end:o]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Verbs · First look at past and future",
+      "rule": "Compare three everyday time words. In the past, czytałem and czytałam differ by the speaker's gender. For the future of czytać, you can start with będę plus the infinitive.",
+      "examples": [
+        {
+          "polish": "Dzisiaj **czyt[[end:am]]** książk[[end:ę]].",
+          "english": "I'm reading a book today."
+        },
+        {
+          "polish": "Wczoraj **czyta[[end:łem]]** książk[[end:ę]].",
+          "english": "I read a book yesterday. (male speaker)"
+        },
+        {
+          "polish": "Wczoraj **czyta[[end:łam]]** książk[[end:ę]].",
+          "english": "I read a book yesterday. (female speaker)"
+        },
+        {
+          "polish": "Jutro **będę czytać** książk[[end:ę]].",
+          "english": "I'll read a book tomorrow."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Present and past · czytać",
+          "headers": [
+            "Person",
+            "Present",
+            "Past"
+          ],
+          "rows": [
+            [
+              "ja",
+              "czyt[[end:am]]",
+              "czyta[[end:łem]] / czyta[[end:łam]]"
+            ],
+            [
+              "ty",
+              "czyt[[end:asz]]",
+              "czyta[[end:łeś]] / czyta[[end:łaś]]"
+            ],
+            [
+              "on / ona / ono",
+              "czyt[[end:a]]",
+              "czyta[[end:ł]] / czyta[[end:ła]] / czyta[[end:ło]]"
+            ],
+            [
+              "my",
+              "czyt[[end:amy]]",
+              "czyta[[end:liśmy]] / czyta[[end:łyśmy]]"
+            ],
+            [
+              "wy",
+              "czyt[[end:acie]]",
+              "czyta[[end:liście]] / czyta[[end:łyście]]"
+            ],
+            [
+              "oni / one",
+              "czyt[[end:ają]]",
+              "czyta[[end:li]] / czyta[[end:ły]]"
+            ]
+          ]
+        },
+        {
+          "title": "Future",
+          "headers": [
+            "Person",
+            "czytać + infinitive",
+            "przeczytać"
+          ],
+          "rows": [
+            [
+              "ja",
+              "będę czytać",
+              "przeczyt[[end:am]]"
+            ],
+            [
+              "ty",
+              "będziesz czytać",
+              "przeczyt[[end:asz]]"
+            ],
+            [
+              "on / ona / ono",
+              "będzie czytać",
+              "przeczyt[[end:a]]"
+            ],
+            [
+              "my",
+              "będziemy czytać",
+              "przeczyt[[end:amy]]"
+            ],
+            [
+              "wy",
+              "będziecie czytać",
+              "przeczyt[[end:acie]]"
+            ],
+            [
+              "oni / one",
+              "będą czytać",
+              "przeczyt[[end:ają]]"
+            ]
+          ]
+        },
+        {
+          "title": "Alternative imperfective future",
+          "headers": [
+            "Person",
+            "Auxiliary",
+            "Choose one form"
+          ],
+          "rows": [
+            [
+              "ja",
+              "będę",
+              "czyta[[end:ł]] / czyta[[end:ła]]"
+            ],
+            [
+              "ty",
+              "będziesz",
+              "czyta[[end:ł]] / czyta[[end:ła]]"
+            ],
+            [
+              "on / ona / ono",
+              "będzie",
+              "czyta[[end:ł]] / czyta[[end:ła]] / czyta[[end:ło]]"
+            ],
+            [
+              "my",
+              "będziemy",
+              "czyta[[end:li]] / czyta[[end:ły]]"
+            ],
+            [
+              "wy",
+              "będziecie",
+              "czyta[[end:li]] / czyta[[end:ły]]"
+            ],
+            [
+              "oni / one",
+              "będą",
+              "czyta[[end:li]] / czyta[[end:ły]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Present and past · czytać · highlighted endings / form segments",
+          "headers": [
+            "Person",
+            "Present",
+            "Past"
+          ],
+          "rows": [
+            [
+              "ja",
+              "[[end:am]]",
+              "[[end:łem]] / [[end:łam]]"
+            ],
+            [
+              "ty",
+              "[[end:asz]]",
+              "[[end:łeś]] / [[end:łaś]]"
+            ],
+            [
+              "on / ona / ono",
+              "[[end:a]]",
+              "[[end:ł]] / [[end:ła]] / [[end:ło]]"
+            ],
+            [
+              "my",
+              "[[end:amy]]",
+              "[[end:liśmy]] / [[end:łyśmy]]"
+            ],
+            [
+              "wy",
+              "[[end:acie]]",
+              "[[end:liście]] / [[end:łyście]]"
+            ],
+            [
+              "oni / one",
+              "[[end:ają]]",
+              "[[end:li]] / [[end:ły]]"
+            ]
+          ]
+        },
+        {
+          "title": "Future · highlighted endings / form segments",
+          "headers": [
+            "Person",
+            "czytać + infinitive",
+            "przeczytać"
+          ],
+          "rows": [
+            [
+              "ja",
+              "—",
+              "[[end:am]]"
+            ],
+            [
+              "ty",
+              "—",
+              "[[end:asz]]"
+            ],
+            [
+              "on / ona / ono",
+              "—",
+              "[[end:a]]"
+            ],
+            [
+              "my",
+              "—",
+              "[[end:amy]]"
+            ],
+            [
+              "wy",
+              "—",
+              "[[end:acie]]"
+            ],
+            [
+              "oni / one",
+              "—",
+              "[[end:ają]]"
+            ]
+          ]
+        },
+        {
+          "title": "Alternative imperfective future · highlighted endings / form segments",
+          "headers": [
+            "Person",
+            "Auxiliary",
+            "Choose one form"
+          ],
+          "rows": [
+            [
+              "ja",
+              "—",
+              "[[end:ł]] / [[end:ła]]"
+            ],
+            [
+              "ty",
+              "—",
+              "[[end:ł]] / [[end:ła]]"
+            ],
+            [
+              "on / ona / ono",
+              "—",
+              "[[end:ł]] / [[end:ła]] / [[end:ło]]"
+            ],
+            [
+              "my",
+              "—",
+              "[[end:li]] / [[end:ły]]"
+            ],
+            [
+              "wy",
+              "—",
+              "[[end:li]] / [[end:ły]]"
+            ],
+            [
+              "oni / one",
+              "—",
+              "[[end:li]] / [[end:ły]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    }
+  ],
+  "A2": [
+    {
+      "title": "Dative and vocative",
+      "rule": "Use the dative for a recipient or after verbs such as pomagać. Use the vocative when directly addressing someone.",
+      "examples": [
+        {
+          "polish": "Daję **brat[[end:u]]** bilet.",
+          "english": "I'm giving my brother a ticket."
+        },
+        {
+          "polish": "Pomagam **[[stem:siostrz]][[end:e]]**.",
+          "english": "I'm helping my sister."
+        },
+        {
+          "polish": "**[[stem:Piotrz]][[end:e]]**, chodź tutaj!",
+          "english": "Piotr, come here!"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Recipient versus direct address",
+          "headers": [
+            "Nominative",
+            "Dative",
+            "Vocative"
+          ],
+          "rows": [
+            [
+              "mam[[end:a]]",
+              "[[stem:mami]][[end:e]]",
+              "mam[[end:o]]"
+            ],
+            [
+              "tat[[end:a]]",
+              "[[stem:taci]][[end:e]]",
+              "tat[[end:o]]"
+            ],
+            [
+              "brat",
+              "brat[[end:u]]",
+              "[[stem:braci]][[end:e]]"
+            ],
+            [
+              "siostr[[end:a]]",
+              "[[stem:siostrz]][[end:e]]",
+              "siostr[[end:o]]"
+            ],
+            [
+              "Piotr",
+              "Piotr[[end:owi]]",
+              "[[stem:Piotrz]][[end:e]]"
+            ],
+            [
+              "Ann[[end:a]]",
+              "[[stem:Anni]][[end:e]]",
+              "Ann[[end:o]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Recipient versus direct address · highlighted endings / form segments",
+          "headers": [
+            "Nominative",
+            "Dative",
+            "Vocative"
+          ],
+          "rows": [
+            [
+              "mam[[end:a]]",
+              "[[end:e]]",
+              "[[end:o]]"
+            ],
+            [
+              "tat[[end:a]]",
+              "[[end:e]]",
+              "[[end:o]]"
+            ],
+            [
+              "brat",
+              "[[end:u]]",
+              "[[end:e]]"
+            ],
+            [
+              "siostr[[end:a]]",
+              "[[end:e]]",
+              "[[end:o]]"
+            ],
+            [
+              "Piotr",
+              "[[end:owi]]",
+              "[[end:e]]"
+            ],
+            [
+              "Ann[[end:a]]",
+              "[[end:e]]",
+              "[[end:o]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Location and destination",
+      "rule": "With na, the locative can describe where you are and the accusative can describe where you are going.",
+      "examples": [
+        {
+          "polish": "Jestem na **[[stem:poczc]][[end:ie]]**.",
+          "english": "I'm at the post office."
+        },
+        {
+          "polish": "Idę na **poczt[[end:ę]]**.",
+          "english": "I'm going to the post office."
+        },
+        {
+          "polish": "Czekam na **dworc[[end:u]]**.",
+          "english": "I'm waiting at the station."
+        },
+        {
+          "polish": "Jadę **na dworzec**.",
+          "english": "I’m going to the station."
+        },
+        {
+          "polish": "Jesteśmy **na lotnisk[[end:u]]**.",
+          "english": "We’re at the airport."
+        },
+        {
+          "polish": "Jedziemy **na lotnisk[[end:o]]**.",
+          "english": "We’re going to the airport."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Compare where with where to",
+          "headers": [
+            "Preposition",
+            "Location with locative",
+            "Destination with accusative"
+          ],
+          "rows": [
+            [
+              "na",
+              "na [[stem:poczc]][[end:ie]]",
+              "na poczt[[end:ę]]"
+            ],
+            [
+              "na",
+              "na dworc[[end:u]]",
+              "na dworzec"
+            ],
+            [
+              "na",
+              "na lotnisk[[end:u]]",
+              "na lotnisk[[end:o]]"
+            ],
+            [
+              "na",
+              "na stacj[[end:i]]",
+              "na stacj[[end:ę]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Compare where with where to · highlighted endings / form segments",
+          "headers": [
+            "Preposition",
+            "Location with locative",
+            "Destination with accusative"
+          ],
+          "rows": [
+            [
+              "na",
+              "[[end:ie]]",
+              "[[end:ę]]"
+            ],
+            [
+              "na",
+              "[[end:u]]",
+              "—"
+            ],
+            [
+              "na",
+              "[[end:u]]",
+              "[[end:o]]"
+            ],
+            [
+              "na",
+              "[[end:i]]",
+              "[[end:ę]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Past and future",
+      "rule": "In the singular past, the form can depend on the subject's gender. For the imperfective future, use a form of być plus the infinitive or the matching past-type form.",
+      "examples": [
+        {
+          "polish": "Wczoraj **czyta[[end:łam]]** książk[[end:ę]].",
+          "english": "I read a book yesterday. (female speaker)"
+        },
+        {
+          "polish": "Wczoraj **czyta[[end:łem]]** książk[[end:ę]].",
+          "english": "I read a book yesterday. (male speaker)"
+        },
+        {
+          "polish": "Jutro **będę czytać** książk[[end:ę]].",
+          "english": "I'll read a book tomorrow."
+        },
+        {
+          "polish": "Jutro **będę czyta[[end:ła]]** książk[[end:ę]].",
+          "english": "I'll read a book tomorrow. (female speaker)"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Present and past · czytać",
+          "headers": [
+            "Person",
+            "Present",
+            "Past"
+          ],
+          "rows": [
+            [
+              "ja",
+              "czyt[[end:am]]",
+              "czyta[[end:łem]] / czyta[[end:łam]]"
+            ],
+            [
+              "ty",
+              "czyt[[end:asz]]",
+              "czyta[[end:łeś]] / czyta[[end:łaś]]"
+            ],
+            [
+              "on / ona / ono",
+              "czyt[[end:a]]",
+              "czyta[[end:ł]] / czyta[[end:ła]] / czyta[[end:ło]]"
+            ],
+            [
+              "my",
+              "czyt[[end:amy]]",
+              "czyta[[end:liśmy]] / czyta[[end:łyśmy]]"
+            ],
+            [
+              "wy",
+              "czyt[[end:acie]]",
+              "czyta[[end:liście]] / czyta[[end:łyście]]"
+            ],
+            [
+              "oni / one",
+              "czyt[[end:ają]]",
+              "czyta[[end:li]] / czyta[[end:ły]]"
+            ]
+          ]
+        },
+        {
+          "title": "Future",
+          "headers": [
+            "Person",
+            "czytać + infinitive",
+            "przeczytać"
+          ],
+          "rows": [
+            [
+              "ja",
+              "będę czytać",
+              "przeczyt[[end:am]]"
+            ],
+            [
+              "ty",
+              "będziesz czytać",
+              "przeczyt[[end:asz]]"
+            ],
+            [
+              "on / ona / ono",
+              "będzie czytać",
+              "przeczyt[[end:a]]"
+            ],
+            [
+              "my",
+              "będziemy czytać",
+              "przeczyt[[end:amy]]"
+            ],
+            [
+              "wy",
+              "będziecie czytać",
+              "przeczyt[[end:acie]]"
+            ],
+            [
+              "oni / one",
+              "będą czytać",
+              "przeczyt[[end:ają]]"
+            ]
+          ]
+        },
+        {
+          "title": "Alternative imperfective future",
+          "headers": [
+            "Person",
+            "Auxiliary",
+            "Choose one form"
+          ],
+          "rows": [
+            [
+              "ja",
+              "będę",
+              "czyta[[end:ł]] / czyta[[end:ła]]"
+            ],
+            [
+              "ty",
+              "będziesz",
+              "czyta[[end:ł]] / czyta[[end:ła]]"
+            ],
+            [
+              "on / ona / ono",
+              "będzie",
+              "czyta[[end:ł]] / czyta[[end:ła]] / czyta[[end:ło]]"
+            ],
+            [
+              "my",
+              "będziemy",
+              "czyta[[end:li]] / czyta[[end:ły]]"
+            ],
+            [
+              "wy",
+              "będziecie",
+              "czyta[[end:li]] / czyta[[end:ły]]"
+            ],
+            [
+              "oni / one",
+              "będą",
+              "czyta[[end:li]] / czyta[[end:ły]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Present and past · czytać · highlighted endings / form segments",
+          "headers": [
+            "Person",
+            "Present",
+            "Past"
+          ],
+          "rows": [
+            [
+              "ja",
+              "[[end:am]]",
+              "[[end:łem]] / [[end:łam]]"
+            ],
+            [
+              "ty",
+              "[[end:asz]]",
+              "[[end:łeś]] / [[end:łaś]]"
+            ],
+            [
+              "on / ona / ono",
+              "[[end:a]]",
+              "[[end:ł]] / [[end:ła]] / [[end:ło]]"
+            ],
+            [
+              "my",
+              "[[end:amy]]",
+              "[[end:liśmy]] / [[end:łyśmy]]"
+            ],
+            [
+              "wy",
+              "[[end:acie]]",
+              "[[end:liście]] / [[end:łyście]]"
+            ],
+            [
+              "oni / one",
+              "[[end:ają]]",
+              "[[end:li]] / [[end:ły]]"
+            ]
+          ]
+        },
+        {
+          "title": "Future · highlighted endings / form segments",
+          "headers": [
+            "Person",
+            "czytać + infinitive",
+            "przeczytać"
+          ],
+          "rows": [
+            [
+              "ja",
+              "—",
+              "[[end:am]]"
+            ],
+            [
+              "ty",
+              "—",
+              "[[end:asz]]"
+            ],
+            [
+              "on / ona / ono",
+              "—",
+              "[[end:a]]"
+            ],
+            [
+              "my",
+              "—",
+              "[[end:amy]]"
+            ],
+            [
+              "wy",
+              "—",
+              "[[end:acie]]"
+            ],
+            [
+              "oni / one",
+              "—",
+              "[[end:ają]]"
+            ]
+          ]
+        },
+        {
+          "title": "Alternative imperfective future · highlighted endings / form segments",
+          "headers": [
+            "Person",
+            "Auxiliary",
+            "Choose one form"
+          ],
+          "rows": [
+            [
+              "ja",
+              "—",
+              "[[end:ł]] / [[end:ła]]"
+            ],
+            [
+              "ty",
+              "—",
+              "[[end:ł]] / [[end:ła]]"
+            ],
+            [
+              "on / ona / ono",
+              "—",
+              "[[end:ł]] / [[end:ła]] / [[end:ło]]"
+            ],
+            [
+              "my",
+              "—",
+              "[[end:li]] / [[end:ły]]"
+            ],
+            [
+              "wy",
+              "—",
+              "[[end:li]] / [[end:ły]]"
+            ],
+            [
+              "oni / one",
+              "—",
+              "[[end:li]] / [[end:ły]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Comparatives and superlatives",
+      "rule": "Use the comparative with niż to compare things. The superlative commonly adds naj- to the comparative.",
+      "examples": [
+        {
+          "polish": "Ten bilet jest **tańszy** niż tamten.",
+          "english": "This ticket is cheaper than that one."
+        },
+        {
+          "polish": "To **najtańszy** bilet.",
+          "english": "This is the cheapest ticket."
+        },
+        {
+          "polish": "Ten hotel jest **lepszy** niż poprzedni.",
+          "english": "This hotel is better than the previous one."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Three degrees",
+          "headers": [
+            "Positive",
+            "Comparative",
+            "Superlative"
+          ],
+          "rows": [
+            [
+              "tani",
+              "tańszy",
+              "najtańszy"
+            ],
+            [
+              "drogi",
+              "droższy",
+              "najdroższy"
+            ],
+            [
+              "dobr[[end:y]]",
+              "lepszy",
+              "najlepszy"
+            ],
+            [
+              "zły",
+              "gorszy",
+              "najgorszy"
+            ],
+            [
+              "interesujący",
+              "bardziej interesujący",
+              "najbardziej interesujący"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Three degrees · highlighted endings / form segments",
+          "headers": [
+            "Positive",
+            "Comparative",
+            "Superlative"
+          ],
+          "rows": [
+            [
+              "dobr[[end:y]]",
+              "—",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    }
+  ],
+  "B1": [
+    {
+      "title": "Verb aspect",
+      "rule": "The imperfective often presents an action as ongoing or repeated. The perfective presents it as a bounded event, often with a completed result.",
+      "examples": [
+        {
+          "polish": "Kiedy zadzwoniłeś, **pisa[[end:łam]]** raport.",
+          "english": "When you called, I was writing a report."
+        },
+        {
+          "polish": "Wczoraj **napisa[[end:łam]]** raport.",
+          "english": "I wrote a report yesterday."
+        },
+        {
+          "polish": "Do jutra **napiszę** raport.",
+          "english": "I'll have the report written by tomorrow."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Aspect across time · first-person examples",
+          "headers": [
+            "Time",
+            "Imperfective",
+            "Perfective"
+          ],
+          "rows": [
+            [
+              "Present",
+              "pisz[[end:ę]] raport",
+              "—"
+            ],
+            [
+              "Past",
+              "pisa[[end:łam]] raport",
+              "napisa[[end:łam]] raport"
+            ],
+            [
+              "Future",
+              "będę pisa[[end:ła]] raport",
+              "napiszę raport"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Aspect across time · first-person examples · highlighted endings / form segments",
+          "headers": [
+            "Time",
+            "Imperfective",
+            "Perfective"
+          ],
+          "rows": [
+            [
+              "Present",
+              "[[end:ę]]",
+              "—"
+            ],
+            [
+              "Past",
+              "[[end:łam]]",
+              "[[end:łam]]"
+            ],
+            [
+              "Future",
+              "[[end:ła]]",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Cases required by verbs",
+      "rule": "Learn the case with the whole expression. Ufać takes the dative, unikać the genitive and interesować się the instrumental.",
+      "examples": [
+        {
+          "polish": "Ufam **tej osobie**.",
+          "english": "I trust this person."
+        },
+        {
+          "polish": "Unikam **dużych tłumów**.",
+          "english": "I avoid large crowds."
+        },
+        {
+          "polish": "Interesuję się **językami obcymi**.",
+          "english": "I'm interested in foreign languages."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Learn the case with the verb",
+          "headers": [
+            "Case",
+            "Expressions",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Genitive",
+              "unikać / szukać",
+              "Szukam klucz[[end:y]]."
+            ],
+            [
+              "Dative",
+              "ufać / pomagać",
+              "Pomagam [[stem:sąsiadc]][[end:e]]."
+            ],
+            [
+              "Accusative",
+              "widzieć / czekać na",
+              "Czekam na autobus."
+            ],
+            [
+              "Instrumental",
+              "interesować się / zajmować się",
+              "Zajmuję się projekt[[end:em]]."
+            ],
+            [
+              "Locative",
+              "rozmawiać o / myśleć o",
+              "Myślę o urlop[[end:ie]]."
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Learn the case with the verb · highlighted endings / form segments",
+          "headers": [
+            "Case",
+            "Expressions",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Genitive",
+              "—",
+              "[[end:y]]"
+            ],
+            [
+              "Dative",
+              "—",
+              "[[end:e]]"
+            ],
+            [
+              "Instrumental",
+              "—",
+              "[[end:em]]"
+            ],
+            [
+              "Locative",
+              "—",
+              "[[end:ie]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Relative clauses",
+      "rule": "Który agrees in gender and number with the noun it refers to. Its case depends on its role within the relative clause.",
+      "examples": [
+        {
+          "polish": "To jest osoba, **któr[[end:a]]** pracuje w banku.",
+          "english": "This is the person who works at the bank."
+        },
+        {
+          "polish": "To jest osoba, **któr[[end:ej]]** ufam.",
+          "english": "This is the person I trust."
+        },
+        {
+          "polish": "To jest osoba, **z któr[[end:ą]]** pracuję.",
+          "english": "This is the person I work with."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Relative pronoun · masculine person and feminine",
+          "headers": [
+            "Case",
+            "Masculine person",
+            "Feminine"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "któr[[end:y]]",
+              "któr[[end:a]]"
+            ],
+            [
+              "Genitive",
+              "któr[[end:ego]]",
+              "któr[[end:ej]]"
+            ],
+            [
+              "Dative",
+              "któr[[end:emu]]",
+              "któr[[end:ej]]"
+            ],
+            [
+              "Accusative",
+              "któr[[end:ego]]",
+              "któr[[end:ą]]"
+            ],
+            [
+              "Instrumental",
+              "któr[[end:ym]]",
+              "któr[[end:ą]]"
+            ],
+            [
+              "Locative",
+              "któr[[end:ym]]",
+              "któr[[end:ej]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Relative pronoun · masculine person and feminine · highlighted endings / form segments",
+          "headers": [
+            "Case",
+            "Masculine person",
+            "Feminine"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "[[end:y]]",
+              "[[end:a]]"
+            ],
+            [
+              "Genitive",
+              "[[end:ego]]",
+              "[[end:ej]]"
+            ],
+            [
+              "Dative",
+              "[[end:emu]]",
+              "[[end:ej]]"
+            ],
+            [
+              "Accusative",
+              "[[end:ego]]",
+              "[[end:ą]]"
+            ],
+            [
+              "Instrumental",
+              "[[end:ym]]",
+              "[[end:ą]]"
+            ],
+            [
+              "Locative",
+              "[[end:ym]]",
+              "[[end:ej]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Conditional sentences",
+      "rule": "Use gdyby to introduce a hypothetical condition. In the result clause, a form such as pomógłbym combines the masculine past-type form with -bym.",
+      "examples": [
+        {
+          "polish": "**Gdybym miał** czas, **pomógłbym** ci.",
+          "english": "If I had time, I would help you. (male speaker)"
+        },
+        {
+          "polish": "**Gdybym miała** czas, **pomogłabym** ci.",
+          "english": "If I had time, I would help you. (female speaker)"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Conditional · czytać",
+          "headers": [
+            "Person",
+            "Form"
+          ],
+          "rows": [
+            [
+              "ja",
+              "czyta[[end:łbym]] / czyta[[end:łabym]]"
+            ],
+            [
+              "ty",
+              "czyta[[end:łbyś]] / czyta[[end:łabyś]]"
+            ],
+            [
+              "on / ona / ono",
+              "czyta[[end:łby]] / czyta[[end:łaby]] / czyta[[end:łoby]]"
+            ],
+            [
+              "my",
+              "czyta[[end:libyśmy]] / czyta[[end:łybyśmy]]"
+            ],
+            [
+              "wy",
+              "czyta[[end:libyście]] / czyta[[end:łybyście]]"
+            ],
+            [
+              "oni / one",
+              "czyta[[end:liby]] / czyta[[end:łyby]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Conditional · czytać · highlighted endings / form segments",
+          "headers": [
+            "Person",
+            "Form"
+          ],
+          "rows": [
+            [
+              "ja",
+              "[[end:łbym]] / [[end:łabym]]"
+            ],
+            [
+              "ty",
+              "[[end:łbyś]] / [[end:łabyś]]"
+            ],
+            [
+              "on / ona / ono",
+              "[[end:łby]] / [[end:łaby]] / [[end:łoby]]"
+            ],
+            [
+              "my",
+              "[[end:libyśmy]] / [[end:łybyśmy]]"
+            ],
+            [
+              "wy",
+              "[[end:libyście]] / [[end:łybyście]]"
+            ],
+            [
+              "oni / one",
+              "[[end:liby]] / [[end:łyby]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    }
+  ],
+  "B2": [
+    {
+      "title": "Passive voice",
+      "rule": "Use być with an imperfective passive participle for an ongoing process in these examples. Zostać with a perfective passive participle presents the event as completed. The participle agrees with the subject.",
+      "examples": [
+        {
+          "polish": "Raport **jest analizowan[[end:y]]** przez komisję.",
+          "english": "The report is being analysed by the committee."
+        },
+        {
+          "polish": "Raport **został przeanalizowan[[end:y]]** przez komisję.",
+          "english": "The report was analysed by the committee."
+        },
+        {
+          "polish": "Wyniki **zostaną opublikowan[[end:e]]** jutro.",
+          "english": "The results will be published tomorrow."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Passive across time · raport",
+          "headers": [
+            "Time",
+            "Ongoing process",
+            "Completed event"
+          ],
+          "rows": [
+            [
+              "Past",
+              "był analizowan[[end:y]]",
+              "został przeanalizowan[[end:y]]"
+            ],
+            [
+              "Present",
+              "jest analizowan[[end:y]]",
+              "—"
+            ],
+            [
+              "Future",
+              "będzie analizowan[[end:y]]",
+              "zostanie przeanalizowan[[end:y]]"
+            ]
+          ]
+        },
+        {
+          "title": "Agreement of the completed participle",
+          "headers": [
+            "Subject",
+            "Past passive"
+          ],
+          "rows": [
+            [
+              "raport (masculine)",
+              "został opublikowan[[end:y]]"
+            ],
+            [
+              "lista (feminine)",
+              "została opublikowan[[end:a]]"
+            ],
+            [
+              "ogłoszenie (neuter)",
+              "zostało opublikowan[[end:e]]"
+            ],
+            [
+              "wyniki (non-masculine-personal plural)",
+              "zostały opublikowan[[end:e]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Passive across time · raport · highlighted endings / form segments",
+          "headers": [
+            "Time",
+            "Ongoing process",
+            "Completed event"
+          ],
+          "rows": [
+            [
+              "Past",
+              "[[end:y]]",
+              "[[end:y]]"
+            ],
+            [
+              "Present",
+              "[[end:y]]",
+              "—"
+            ],
+            [
+              "Future",
+              "[[end:y]]",
+              "[[end:y]]"
+            ]
+          ]
+        },
+        {
+          "title": "Agreement of the completed participle · highlighted endings / form segments",
+          "headers": [
+            "Subject",
+            "Past passive"
+          ],
+          "rows": [
+            [
+              "raport (masculine)",
+              "[[end:y]]"
+            ],
+            [
+              "lista (feminine)",
+              "[[end:a]]"
+            ],
+            [
+              "ogłoszenie (neuter)",
+              "[[end:e]]"
+            ],
+            [
+              "wyniki (non-masculine-personal plural)",
+              "[[end:e]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Adverbial participles",
+      "rule": "An imperfective -ąc participle indicates a simultaneous action. A perfective anterior participle in -wszy or -łszy indicates an earlier completed action. Both actions share the same subject.",
+      "examples": [
+        {
+          "polish": "**Czytając** raport, zauważyła błąd.",
+          "english": "While reading the report, she noticed an error."
+        },
+        {
+          "polish": "**Przeczytawszy** raport, wysłała uwagi.",
+          "english": "Having read the report, she sent her comments."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Compare the two actions",
+          "headers": [
+            "Aspect and relation",
+            "Model forms"
+          ],
+          "rows": [
+            [
+              "Imperfective · simultaneous",
+              "czytać → czytając / analizować → analizując"
+            ],
+            [
+              "Perfective · earlier",
+              "przeczytać → przeczytawszy / przeanalizować → przeanalizowawszy"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Formal prepositions and cases",
+      "rule": "Learn formal expressions with the cases they govern. Wbrew takes the dative, wskutek the genitive and w związku z the instrumental.",
+      "examples": [
+        {
+          "polish": "**Wbrew wcześniejszym ustaleniom** zmieniono termin.",
+          "english": "Contrary to earlier agreements, the date was changed."
+        },
+        {
+          "polish": "**Wskutek awarii** odwołano spotkanie.",
+          "english": "The meeting was cancelled due to a breakdown."
+        },
+        {
+          "polish": "**W związku z opóźnieniem** przesunięto głosowanie.",
+          "english": "The vote was postponed because of the delay."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Formal expressions by case",
+          "headers": [
+            "Case",
+            "Expressions",
+            "Model phrase"
+          ],
+          "rows": [
+            [
+              "Dative",
+              "wbrew / dzięki",
+              "wbrew przepis[[end:om]]"
+            ],
+            [
+              "Genitive",
+              "wskutek / na podstawie",
+              "na podstawie ustaw[[end:y]]"
+            ],
+            [
+              "Instrumental",
+              "w związku z / zgodnie z",
+              "zgodnie z przepis[[end:ami]]"
+            ]
+          ]
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Formal expressions by case · highlighted endings / form segments",
+          "headers": [
+            "Case",
+            "Expressions",
+            "Model phrase"
+          ],
+          "rows": [
+            [
+              "Dative",
+              "—",
+              "[[end:om]]"
+            ],
+            [
+              "Genitive",
+              "—",
+              "[[end:y]]"
+            ],
+            [
+              "Instrumental",
+              "—",
+              "[[end:ami]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Linking ideas",
+      "rule": "Use mimo że to introduce a concession. Use im ..., tym ... to show that two things change together. Use czy for an indirect yes-or-no question.",
+      "examples": [
+        {
+          "polish": "**Mimo że** raport był gotowy, przełożono spotkanie.",
+          "english": "Although the report was ready, the meeting was postponed."
+        },
+        {
+          "polish": "**Im** dłużej czekamy, **tym** trudniej będzie podjąć decyzję.",
+          "english": "The longer we wait, the harder it will be to make a decision."
+        },
+        {
+          "polish": "Nie wiadomo, **czy** komisja zatwierdzi projekt.",
+          "english": "It is unclear whether the committee will approve the project."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Choose the connector by its job",
+          "headers": [
+            "Job",
+            "Connector",
+            "English cue"
+          ],
+          "rows": [
+            [
+              "Concession",
+              "mimo że / chociaż",
+              "although"
+            ],
+            [
+              "Proportional change",
+              "im …, tym …",
+              "the more …, the more …"
+            ],
+            [
+              "Indirect yes/no question",
+              "czy",
+              "whether"
+            ],
+            [
+              "Reason",
+              "ponieważ / gdyż",
+              "because"
+            ],
+            [
+              "Consequence",
+              "dlatego / toteż",
+              "therefore"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "title": "Reference · Noun declension",
+      "rule": "Each noun has a grammatical gender. Compare a masculine person (student), a masculine inanimate noun (stół), a feminine noun (książka) and a neuter noun (okno). These are model nouns. Endings and stem changes vary across nouns.",
+      "tables": [
+        {
+          "title": "student",
+          "headers": [
+            "Case",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "student[[end:∅]]",
+              "[[stem:studenc]][[end:i]]"
+            ],
+            [
+              "Genitive",
+              "student[[end:a]]",
+              "student[[end:ów]]"
+            ],
+            [
+              "Dative",
+              "student[[end:owi]]",
+              "student[[end:om]]"
+            ],
+            [
+              "Accusative",
+              "student[[end:a]]",
+              "student[[end:ów]]"
+            ],
+            [
+              "Instrumental",
+              "student[[end:em]]",
+              "student[[end:ami]]"
+            ],
+            [
+              "Locative",
+              "[[stem:studenc]][[end:ie]]",
+              "student[[end:ach]]"
+            ],
+            [
+              "Vocative",
+              "[[stem:studenc]][[end:ie]]",
+              "[[stem:studenc]][[end:i]]"
+            ]
+          ]
+        },
+        {
+          "title": "stół",
+          "headers": [
+            "Case",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "stół[[end:∅]]",
+              "stoł[[end:y]]"
+            ],
+            [
+              "Genitive",
+              "stoł[[end:u]]",
+              "stoł[[end:ów]]"
+            ],
+            [
+              "Dative",
+              "stoł[[end:owi]]",
+              "stoł[[end:om]]"
+            ],
+            [
+              "Accusative",
+              "stół[[end:∅]]",
+              "stoł[[end:y]]"
+            ],
+            [
+              "Instrumental",
+              "stoł[[end:em]]",
+              "stoł[[end:ami]]"
+            ],
+            [
+              "Locative",
+              "[[stem:stol]][[end:e]]",
+              "stoł[[end:ach]]"
+            ],
+            [
+              "Vocative",
+              "[[stem:stol]][[end:e]]",
+              "stoł[[end:y]]"
+            ]
+          ]
+        },
+        {
+          "title": "książka",
+          "headers": [
+            "Case",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "książk[[end:a]]",
+              "książk[[end:i]]"
+            ],
+            [
+              "Genitive",
+              "książk[[end:i]]",
+              "[[stem:książek]][[end:∅]]"
+            ],
+            [
+              "Dative",
+              "[[stem:książc]][[end:e]]",
+              "książk[[end:om]]"
+            ],
+            [
+              "Accusative",
+              "książk[[end:ę]]",
+              "książk[[end:i]]"
+            ],
+            [
+              "Instrumental",
+              "książk[[end:ą]]",
+              "książk[[end:ami]]"
+            ],
+            [
+              "Locative",
+              "[[stem:książc]][[end:e]]",
+              "książk[[end:ach]]"
+            ],
+            [
+              "Vocative",
+              "książk[[end:o]]",
+              "książk[[end:i]]"
+            ]
+          ]
+        },
+        {
+          "title": "okno",
+          "headers": [
+            "Case",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "okn[[end:o]]",
+              "okn[[end:a]]"
+            ],
+            [
+              "Genitive",
+              "okn[[end:a]]",
+              "[[stem:okien]][[end:∅]]"
+            ],
+            [
+              "Dative",
+              "okn[[end:u]]",
+              "okn[[end:om]]"
+            ],
+            [
+              "Accusative",
+              "okn[[end:o]]",
+              "okn[[end:a]]"
+            ],
+            [
+              "Instrumental",
+              "okn[[end:em]]",
+              "okn[[end:ami]]"
+            ],
+            [
+              "Locative",
+              "[[stem:okni]][[end:e]]",
+              "okn[[end:ach]]"
+            ],
+            [
+              "Vocative",
+              "okn[[end:o]]",
+              "okn[[end:a]]"
+            ]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "polish": "Widzę **student[[end:a]]** i **stół[[end:∅]]**.",
+          "english": "I see a student and a table. The two masculine nouns differ in the singular accusative."
+        },
+        {
+          "polish": "Przyglądam się **książk[[end:om]]**.",
+          "english": "I am looking closely at the books. Książkom is dative plural."
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "student · highlighted endings / form segments",
+          "headers": [
+            "Case",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "[[end:∅]]",
+              "[[end:i]]"
+            ],
+            [
+              "Genitive",
+              "[[end:a]]",
+              "[[end:ów]]"
+            ],
+            [
+              "Dative",
+              "[[end:owi]]",
+              "[[end:om]]"
+            ],
+            [
+              "Accusative",
+              "[[end:a]]",
+              "[[end:ów]]"
+            ],
+            [
+              "Instrumental",
+              "[[end:em]]",
+              "[[end:ami]]"
+            ],
+            [
+              "Locative",
+              "[[end:ie]]",
+              "[[end:ach]]"
+            ],
+            [
+              "Vocative",
+              "[[end:ie]]",
+              "[[end:i]]"
+            ]
+          ]
+        },
+        {
+          "title": "stół · highlighted endings / form segments",
+          "headers": [
+            "Case",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "[[end:∅]]",
+              "[[end:y]]"
+            ],
+            [
+              "Genitive",
+              "[[end:u]]",
+              "[[end:ów]]"
+            ],
+            [
+              "Dative",
+              "[[end:owi]]",
+              "[[end:om]]"
+            ],
+            [
+              "Accusative",
+              "[[end:∅]]",
+              "[[end:y]]"
+            ],
+            [
+              "Instrumental",
+              "[[end:em]]",
+              "[[end:ami]]"
+            ],
+            [
+              "Locative",
+              "[[end:e]]",
+              "[[end:ach]]"
+            ],
+            [
+              "Vocative",
+              "[[end:e]]",
+              "[[end:y]]"
+            ]
+          ]
+        },
+        {
+          "title": "książka · highlighted endings / form segments",
+          "headers": [
+            "Case",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "[[end:a]]",
+              "[[end:i]]"
+            ],
+            [
+              "Genitive",
+              "[[end:i]]",
+              "[[end:∅]]"
+            ],
+            [
+              "Dative",
+              "[[end:e]]",
+              "[[end:om]]"
+            ],
+            [
+              "Accusative",
+              "[[end:ę]]",
+              "[[end:i]]"
+            ],
+            [
+              "Instrumental",
+              "[[end:ą]]",
+              "[[end:ami]]"
+            ],
+            [
+              "Locative",
+              "[[end:e]]",
+              "[[end:ach]]"
+            ],
+            [
+              "Vocative",
+              "[[end:o]]",
+              "[[end:i]]"
+            ]
+          ]
+        },
+        {
+          "title": "okno · highlighted endings / form segments",
+          "headers": [
+            "Case",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "[[end:o]]",
+              "[[end:a]]"
+            ],
+            [
+              "Genitive",
+              "[[end:a]]",
+              "[[end:∅]]"
+            ],
+            [
+              "Dative",
+              "[[end:u]]",
+              "[[end:om]]"
+            ],
+            [
+              "Accusative",
+              "[[end:o]]",
+              "[[end:a]]"
+            ],
+            [
+              "Instrumental",
+              "[[end:em]]",
+              "[[end:ami]]"
+            ],
+            [
+              "Locative",
+              "[[end:e]]",
+              "[[end:ach]]"
+            ],
+            [
+              "Vocative",
+              "[[end:o]]",
+              "[[end:a]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Reference · Adjective declension",
+      "rule": "A Polish adjective agrees with its noun in gender, number and case. In the singular accusative, masculine animate and inanimate forms differ. In the plural, compare masculine-personal and other nouns. For an adjective modifying a noun in direct address, the adjective’s vocative matches its nominative.",
+      "tables": [
+        {
+          "title": "dobry · singular",
+          "headers": [
+            "Case",
+            "Masculine",
+            "Feminine",
+            "Neuter"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "dobr[[end:y]]",
+              "dobr[[end:a]]",
+              "dobr[[end:e]]"
+            ],
+            [
+              "Genitive",
+              "dobr[[end:ego]]",
+              "dobr[[end:ej]]",
+              "dobr[[end:ego]]"
+            ],
+            [
+              "Dative",
+              "dobr[[end:emu]]",
+              "dobr[[end:ej]]",
+              "dobr[[end:emu]]"
+            ],
+            [
+              "Accusative",
+              "dobr[[end:y]] / dobr[[end:ego]]",
+              "dobr[[end:ą]]",
+              "dobr[[end:e]]"
+            ],
+            [
+              "Instrumental",
+              "dobr[[end:ym]]",
+              "dobr[[end:ą]]",
+              "dobr[[end:ym]]"
+            ],
+            [
+              "Locative",
+              "dobr[[end:ym]]",
+              "dobr[[end:ej]]",
+              "dobr[[end:ym]]"
+            ],
+            [
+              "Vocative",
+              "dobr[[end:y]]",
+              "dobr[[end:a]]",
+              "dobr[[end:e]]"
+            ]
+          ]
+        },
+        {
+          "title": "dobry · plural",
+          "headers": [
+            "Case",
+            "Masculine-personal",
+            "Other"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "[[stem:dobrz]][[end:y]]",
+              "dobr[[end:e]]"
+            ],
+            [
+              "Genitive",
+              "dobr[[end:ych]]",
+              "dobr[[end:ych]]"
+            ],
+            [
+              "Dative",
+              "dobr[[end:ym]]",
+              "dobr[[end:ym]]"
+            ],
+            [
+              "Accusative",
+              "dobr[[end:ych]]",
+              "dobr[[end:e]]"
+            ],
+            [
+              "Instrumental",
+              "dobr[[end:ymi]]",
+              "dobr[[end:ymi]]"
+            ],
+            [
+              "Locative",
+              "dobr[[end:ych]]",
+              "dobr[[end:ych]]"
+            ],
+            [
+              "Vocative",
+              "[[stem:dobrz]][[end:y]]",
+              "dobr[[end:e]]"
+            ]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "polish": "Widzę **dobr[[end:ego]] student[[end:a]]** i **dobr[[end:y]] stół[[end:∅]]**.",
+          "english": "I see a good student and a good table. Compare the two masculine accusatives."
+        },
+        {
+          "polish": "Rozmawiam z **dobr[[end:ymi]] student[[end:ami]]**.",
+          "english": "I’m talking with good students. Both words are instrumental plural."
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "dobry · singular · highlighted endings / form segments",
+          "headers": [
+            "Case",
+            "Masculine",
+            "Feminine",
+            "Neuter"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "[[end:y]]",
+              "[[end:a]]",
+              "[[end:e]]"
+            ],
+            [
+              "Genitive",
+              "[[end:ego]]",
+              "[[end:ej]]",
+              "[[end:ego]]"
+            ],
+            [
+              "Dative",
+              "[[end:emu]]",
+              "[[end:ej]]",
+              "[[end:emu]]"
+            ],
+            [
+              "Accusative",
+              "[[end:y]] / [[end:ego]]",
+              "[[end:ą]]",
+              "[[end:e]]"
+            ],
+            [
+              "Instrumental",
+              "[[end:ym]]",
+              "[[end:ą]]",
+              "[[end:ym]]"
+            ],
+            [
+              "Locative",
+              "[[end:ym]]",
+              "[[end:ej]]",
+              "[[end:ym]]"
+            ],
+            [
+              "Vocative",
+              "[[end:y]]",
+              "[[end:a]]",
+              "[[end:e]]"
+            ]
+          ]
+        },
+        {
+          "title": "dobry · plural · highlighted endings / form segments",
+          "headers": [
+            "Case",
+            "Masculine-personal",
+            "Other"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "[[end:y]]",
+              "[[end:e]]"
+            ],
+            [
+              "Genitive",
+              "[[end:ych]]",
+              "[[end:ych]]"
+            ],
+            [
+              "Dative",
+              "[[end:ym]]",
+              "[[end:ym]]"
+            ],
+            [
+              "Accusative",
+              "[[end:ych]]",
+              "[[end:e]]"
+            ],
+            [
+              "Instrumental",
+              "[[end:ymi]]",
+              "[[end:ymi]]"
+            ],
+            [
+              "Locative",
+              "[[end:ych]]",
+              "[[end:ych]]"
+            ],
+            [
+              "Vocative",
+              "[[end:y]]",
+              "[[end:e]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    },
+    {
+      "title": "Reference · Verb conjugation",
+      "rule": "Compare the imperfective czytać with the perfective przeczytać. The present exists for czytać. The corresponding simple forms of przeczytać refer to the future. Past and conditional forms distinguish gender. In the plural, compare masculine-personal forms (oni) with other forms (one). Imperatives are listed for the persons most commonly taught first.",
+      "tables": [
+        {
+          "title": "Present and past · czytać",
+          "headers": [
+            "Person",
+            "Present",
+            "Past"
+          ],
+          "rows": [
+            [
+              "ja",
+              "czyt[[end:am]]",
+              "czyta[[end:łem]] / czyta[[end:łam]]"
+            ],
+            [
+              "ty",
+              "czyt[[end:asz]]",
+              "czyta[[end:łeś]] / czyta[[end:łaś]]"
+            ],
+            [
+              "on / ona / ono",
+              "czyt[[end:a]]",
+              "czyta[[end:ł]] / czyta[[end:ła]] / czyta[[end:ło]]"
+            ],
+            [
+              "my",
+              "czyt[[end:amy]]",
+              "czyta[[end:liśmy]] / czyta[[end:łyśmy]]"
+            ],
+            [
+              "wy",
+              "czyt[[end:acie]]",
+              "czyta[[end:liście]] / czyta[[end:łyście]]"
+            ],
+            [
+              "oni / one",
+              "czyt[[end:ają]]",
+              "czyta[[end:li]] / czyta[[end:ły]]"
+            ]
+          ]
+        },
+        {
+          "title": "Future",
+          "headers": [
+            "Person",
+            "czytać + infinitive",
+            "przeczytać"
+          ],
+          "rows": [
+            [
+              "ja",
+              "będę czytać",
+              "przeczyt[[end:am]]"
+            ],
+            [
+              "ty",
+              "będziesz czytać",
+              "przeczyt[[end:asz]]"
+            ],
+            [
+              "on / ona / ono",
+              "będzie czytać",
+              "przeczyt[[end:a]]"
+            ],
+            [
+              "my",
+              "będziemy czytać",
+              "przeczyt[[end:amy]]"
+            ],
+            [
+              "wy",
+              "będziecie czytać",
+              "przeczyt[[end:acie]]"
+            ],
+            [
+              "oni / one",
+              "będą czytać",
+              "przeczyt[[end:ają]]"
+            ]
+          ]
+        },
+        {
+          "title": "Alternative imperfective future",
+          "headers": [
+            "Person",
+            "Auxiliary",
+            "Choose one form"
+          ],
+          "rows": [
+            [
+              "ja",
+              "będę",
+              "czyta[[end:ł]] / czyta[[end:ła]]"
+            ],
+            [
+              "ty",
+              "będziesz",
+              "czyta[[end:ł]] / czyta[[end:ła]]"
+            ],
+            [
+              "on / ona / ono",
+              "będzie",
+              "czyta[[end:ł]] / czyta[[end:ła]] / czyta[[end:ło]]"
+            ],
+            [
+              "my",
+              "będziemy",
+              "czyta[[end:li]] / czyta[[end:ły]]"
+            ],
+            [
+              "wy",
+              "będziecie",
+              "czyta[[end:li]] / czyta[[end:ły]]"
+            ],
+            [
+              "oni / one",
+              "będą",
+              "czyta[[end:li]] / czyta[[end:ły]]"
+            ]
+          ]
+        },
+        {
+          "title": "Conditional · czytać",
+          "headers": [
+            "Person",
+            "Form"
+          ],
+          "rows": [
+            [
+              "ja",
+              "czyta[[end:łbym]] / czyta[[end:łabym]]"
+            ],
+            [
+              "ty",
+              "czyta[[end:łbyś]] / czyta[[end:łabyś]]"
+            ],
+            [
+              "on / ona / ono",
+              "czyta[[end:łby]] / czyta[[end:łaby]] / czyta[[end:łoby]]"
+            ],
+            [
+              "my",
+              "czyta[[end:libyśmy]] / czyta[[end:łybyśmy]]"
+            ],
+            [
+              "wy",
+              "czyta[[end:libyście]] / czyta[[end:łybyście]]"
+            ],
+            [
+              "oni / one",
+              "czyta[[end:liby]] / czyta[[end:łyby]]"
+            ]
+          ]
+        },
+        {
+          "title": "Imperative",
+          "headers": [
+            "Person",
+            "czytać",
+            "przeczytać"
+          ],
+          "rows": [
+            [
+              "ty",
+              "czyta[[end:j]]",
+              "przeczyta[[end:j]]"
+            ],
+            [
+              "my",
+              "czytaj[[end:my]]",
+              "przeczytaj[[end:my]]"
+            ],
+            [
+              "wy",
+              "czytaj[[end:cie]]",
+              "przeczytaj[[end:cie]]"
+            ],
+            [
+              "on / ona / ono",
+              "niech czyt[[end:a]]",
+              "niech przeczyt[[end:a]]"
+            ],
+            [
+              "oni / one",
+              "niech czyt[[end:ają]]",
+              "niech przeczyt[[end:ają]]"
+            ]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "polish": "Teraz **czyt[[end:am]]** książk[[end:ę]].",
+          "english": "I’m reading a book now."
+        },
+        {
+          "polish": "Wczoraj **czyta[[end:łam]]** książk[[end:ę]].",
+          "english": "I read a book yesterday. (female speaker)"
+        },
+        {
+          "polish": "Jutro **będę czyta[[end:ła]]** książk[[end:ę]].",
+          "english": "I’ll be reading a book tomorrow. (female speaker)"
+        },
+        {
+          "polish": "Do piątku **przeczyt[[end:am]]** książk[[end:ę]].",
+          "english": "I’ll have read the book by Friday."
+        }
+      ],
+      "endingTables": [
+        {
+          "title": "Present and past · czytać · highlighted endings / form segments",
+          "headers": [
+            "Person",
+            "Present",
+            "Past"
+          ],
+          "rows": [
+            [
+              "ja",
+              "[[end:am]]",
+              "[[end:łem]] / [[end:łam]]"
+            ],
+            [
+              "ty",
+              "[[end:asz]]",
+              "[[end:łeś]] / [[end:łaś]]"
+            ],
+            [
+              "on / ona / ono",
+              "[[end:a]]",
+              "[[end:ł]] / [[end:ła]] / [[end:ło]]"
+            ],
+            [
+              "my",
+              "[[end:amy]]",
+              "[[end:liśmy]] / [[end:łyśmy]]"
+            ],
+            [
+              "wy",
+              "[[end:acie]]",
+              "[[end:liście]] / [[end:łyście]]"
+            ],
+            [
+              "oni / one",
+              "[[end:ają]]",
+              "[[end:li]] / [[end:ły]]"
+            ]
+          ]
+        },
+        {
+          "title": "Future · highlighted endings / form segments",
+          "headers": [
+            "Person",
+            "czytać + infinitive",
+            "przeczytać"
+          ],
+          "rows": [
+            [
+              "ja",
+              "—",
+              "[[end:am]]"
+            ],
+            [
+              "ty",
+              "—",
+              "[[end:asz]]"
+            ],
+            [
+              "on / ona / ono",
+              "—",
+              "[[end:a]]"
+            ],
+            [
+              "my",
+              "—",
+              "[[end:amy]]"
+            ],
+            [
+              "wy",
+              "—",
+              "[[end:acie]]"
+            ],
+            [
+              "oni / one",
+              "—",
+              "[[end:ają]]"
+            ]
+          ]
+        },
+        {
+          "title": "Alternative imperfective future · highlighted endings / form segments",
+          "headers": [
+            "Person",
+            "Auxiliary",
+            "Choose one form"
+          ],
+          "rows": [
+            [
+              "ja",
+              "—",
+              "[[end:ł]] / [[end:ła]]"
+            ],
+            [
+              "ty",
+              "—",
+              "[[end:ł]] / [[end:ła]]"
+            ],
+            [
+              "on / ona / ono",
+              "—",
+              "[[end:ł]] / [[end:ła]] / [[end:ło]]"
+            ],
+            [
+              "my",
+              "—",
+              "[[end:li]] / [[end:ły]]"
+            ],
+            [
+              "wy",
+              "—",
+              "[[end:li]] / [[end:ły]]"
+            ],
+            [
+              "oni / one",
+              "—",
+              "[[end:li]] / [[end:ły]]"
+            ]
+          ]
+        },
+        {
+          "title": "Conditional · czytać · highlighted endings / form segments",
+          "headers": [
+            "Person",
+            "Form"
+          ],
+          "rows": [
+            [
+              "ja",
+              "[[end:łbym]] / [[end:łabym]]"
+            ],
+            [
+              "ty",
+              "[[end:łbyś]] / [[end:łabyś]]"
+            ],
+            [
+              "on / ona / ono",
+              "[[end:łby]] / [[end:łaby]] / [[end:łoby]]"
+            ],
+            [
+              "my",
+              "[[end:libyśmy]] / [[end:łybyśmy]]"
+            ],
+            [
+              "wy",
+              "[[end:libyście]] / [[end:łybyście]]"
+            ],
+            [
+              "oni / one",
+              "[[end:liby]] / [[end:łyby]]"
+            ]
+          ]
+        },
+        {
+          "title": "Imperative · highlighted endings / form segments",
+          "headers": [
+            "Person",
+            "czytać",
+            "przeczytać"
+          ],
+          "rows": [
+            [
+              "ty",
+              "[[end:j]]",
+              "[[end:j]]"
+            ],
+            [
+              "my",
+              "[[end:my]]",
+              "[[end:my]]"
+            ],
+            [
+              "wy",
+              "[[end:cie]]",
+              "[[end:cie]]"
+            ],
+            [
+              "on / ona / ono",
+              "[[end:a]]",
+              "[[end:a]]"
+            ],
+            [
+              "oni / one",
+              "[[end:ają]]",
+              "[[end:ają]]"
+            ]
+          ]
+        }
+      ],
+      "endingNote": "Blue underlined text marks an ending or a teaching segment of a verb form; amber underlined text marks a changed stem. ∅ means no overt ending and is not pronounced. Past and conditional segments may include the -ł- form marker and personal or conditional markers. These are model-specific patterns, not universal endings. Only explicitly annotated forms are coloured."
+    }
+  ]
+}

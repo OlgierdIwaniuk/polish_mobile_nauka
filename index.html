@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    >
+
+    <meta name="theme-color" content="#203d33">
+
+    <meta
+        name="description"
+        content="Learn Polish vocabulary and grammar at levels A1–B2."
+    >
+
+    <title>Polish Learning</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+
+    <meta name="apple-mobile-web-app-title" content="Learn Polish">
+</head>
+
+<body>
+    <h1>Learn Polish</h1>
+
+    <noscript>
+        This app needs JavaScript to load vocabulary and exercises.
+    </noscript>
+
+    <!-- Main menu -->
+    <section id="menu-screen" aria-label="Main menu">
+        <label for="level-select">Choose your level</label>
+
+        <select id="level-select">
+            <option value="A1">A1</option>
+            <option value="A2">A2</option>
+            <option value="B1">B1</option>
+            <option value="B2">B2</option>
+        </select>
+
+        <p id="word-count" role="status">
+            Loading vocabulary...
+        </p>
+
+        <button id="learn-button" type="button" disabled>
+            Learn Vocabulary
+        </button>
+
+        <button id="quiz-button" type="button" disabled>
+            Vocabulary Quiz
+        </button>
+
+        <button id="verb-tenses-button" type="button">
+            Verb Tenses
+        </button>
+
+        <button id="cases-button" type="button">
+            Noun and Adjective Cases
+        </button>
+
+        <button id="mixed-grammar-button" type="button">
+            Mixed Grammar
+        </button>
+
+        <button id="tutorial-button" type="button">
+            Grammar Tutorial
+        </button>
+
+        <p id="statistics-display"></p>
+    </section>
+
+    <!-- Vocabulary learning -->
+    <section
+        id="learn-screen"
+        aria-label="Learn vocabulary"
+        hidden
+    >
+        <p>Polish word</p>
+
+        <h2 id="polish-word" lang="pl"></h2>
+
+        <button id="pronounce-button" type="button">
+            🔊 Listen
+        </button>
+
+        <p>English translation</p>
+
+        <h2 id="english-word"></h2>
+
+        <button id="next-button" type="button">
+            Next word
+        </button>
+
+        <button id="practice-button" type="button">
+            Practice these words
+        </button>
+
+        <button id="learn-back-button" type="button">
+            Back to menu
+        </button>
+    </section>
+
+    <!-- Vocabulary quiz -->
+    <section
+        id="quiz-screen"
+        aria-labelledby="quiz-title"
+        hidden
+    >
+        <h2 id="quiz-title">Vocabulary Quiz</h2>
+
+        <p>Translate into Polish.</p>
+
+        <p id="quiz-counter"></p>
+        <p id="quiz-score"></p>
+
+        <h2 id="quiz-word"></h2>
+
+        <form id="quiz-form">
+            <label for="answer-input">Your answer</label>
+
+            <input
+                id="answer-input"
+                type="text"
+                lang="pl"
+                autocomplete="off"
+                autocapitalize="none"
+                spellcheck="false"
+                enterkeyhint="done"
+                required
+            >
+
+            <button id="check-button" type="submit">
+                Check
+            </button>
+        </form>
+
+        <p id="quiz-feedback" role="status"></p>
+
+        <button
+            id="accept-answer-button"
+            type="button"
+            hidden
+        >
+            My answer is correct
+        </button>
+
+        <button
+            id="quiz-next-button"
+            type="button"
+            disabled
+        >
+            Next word
+        </button>
+
+        <button id="review-button" type="button" hidden>
+            Review mistakes
+        </button>
+
+        <button id="quiz-back-button" type="button">
+            Back to menu
+        </button>
+    </section>
+
+    <!-- Grammar exercises -->
+    <section
+        id="grammar-screen"
+        aria-labelledby="grammar-title"
+        hidden
+    >
+        <h2 id="grammar-title"></h2>
+
+        <p id="grammar-counter"></p>
+        <p id="grammar-score"></p>
+
+        <h3 id="grammar-prompt"></h3>
+
+        <form id="grammar-form">
+            <label for="grammar-answer">
+                Complete the missing form
+            </label>
+
+            <input
+                id="grammar-answer"
+                type="text"
+                lang="pl"
+                autocomplete="off"
+                autocapitalize="none"
+                spellcheck="false"
+                enterkeyhint="done"
+                required
+            >
+
+            <button id="grammar-check-button" type="submit">
+                Check
+            </button>
+        </form>
+
+        <p id="grammar-feedback" role="status"></p>
+        <p id="grammar-explanation"></p>
+
+        <button
+            id="grammar-next-button"
+            type="button"
+            disabled
+        >
+            Next exercise
+        </button>
+
+        <button id="grammar-back-button" type="button">
+            Back to menu
+        </button>
+    </section>
+
+    <!-- Grammar tutorial -->
+    <section
+        id="tutorial-screen"
+        aria-labelledby="tutorial-title"
+        hidden
+    >
+        <h2 id="tutorial-title">Grammar Tutorial</h2>
+
+        <label for="tutorial-select">Choose a topic</label>
+
+        <select id="tutorial-select" disabled></select>
+
+        <p id="tutorial-status" role="status"></p>
+
+        <div id="tutorial-content"></div>
+
+        <button id="tutorial-back-button" type="button">
+            Back to menu
+        </button>
+    </section>
+
+    <!-- JavaScript loads after all screen elements. -->
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,304 @@
+/* Wymiary elementów uwzględniają padding i obramowanie. */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Arial, sans-serif;
+    color: #203d33;
+    background-color: #f3f5f0;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    min-height: 100dvh;
+
+    padding: 20px 16px 32px;
+
+    /* Odstępy uwzględniają wycięcia ekranu telefonu. */
+    padding-top: max(20px, env(safe-area-inset-top));
+    padding-right: max(16px, env(safe-area-inset-right));
+    padding-bottom: max(32px, env(safe-area-inset-bottom));
+    padding-left: max(16px, env(safe-area-inset-left));
+}
+
+h1 {
+    margin: 0 auto 24px;
+    text-align: center;
+    font-size: clamp(28px, 6vw, 36px);
+}
+
+h2 {
+    margin: 0 0 16px;
+    font-size: clamp(24px, 5vw, 30px);
+    overflow-wrap: anywhere;
+}
+
+h3 {
+    font-size: 21px;
+    overflow-wrap: anywhere;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    margin: 12px 0;
+    color: #4f6056;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Dotyczy głównych ekranów, a nie sekcji wewnątrz tutorialu. */
+body > section {
+    width: 100%;
+    max-width: 480px;
+    min-width: 0;
+    margin: 0 auto;
+    padding: 24px 20px;
+
+    background-color: white;
+    border: 1px solid #dce4dc;
+    border-radius: 18px;
+
+    text-align: center;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+button,
+input,
+select {
+    font: inherit;
+}
+
+button {
+    display: block;
+    width: 100%;
+    min-height: 48px;
+
+    margin-top: 14px;
+    padding: 12px 16px;
+
+    border: none;
+    border-radius: 12px;
+
+    background-color: #203d33;
+    color: white;
+    font-size: 18px;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+button:disabled {
+    background-color: #dce4df;
+    color: #526159;
+    cursor: default;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+.tutorial-table-wrapper:focus-visible {
+    outline: 3px solid #bf633f;
+    outline-offset: 3px;
+}
+
+@media (hover: hover) {
+    button:hover:not(:disabled) {
+        background-color: #315b4c;
+    }
+}
+
+input,
+select {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    min-height: 48px;
+
+    margin-top: 8px;
+    padding: 12px;
+
+    border: 1px solid #657269;
+    border-radius: 8px;
+
+    background-color: white;
+    color: #203d33;
+    font-size: 18px;
+}
+
+form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Przyciski powrotu mają mniej dominujący wygląd. */
+#learn-back-button,
+#quiz-back-button,
+#grammar-back-button,
+#tutorial-back-button {
+    margin-top: 24px;
+    border: 1px solid #657269;
+    background-color: white;
+    color: #203d33;
+}
+
+@media (hover: hover) {
+    #learn-back-button:hover,
+    #quiz-back-button:hover,
+    #grammar-back-button:hover,
+    #tutorial-back-button:hover {
+        background-color: #eef2ed;
+    }
+}
+
+#polish-word,
+#english-word,
+#quiz-word {
+    margin: 16px 0;
+}
+
+#quiz-counter,
+#quiz-score,
+#grammar-counter,
+#grammar-score,
+#word-count {
+    font-size: 15px;
+}
+
+#quiz-feedback,
+#grammar-feedback {
+    font-weight: bold;
+}
+
+#quiz-feedback,
+#grammar-feedback,
+#grammar-explanation,
+#tutorial-status {
+    overflow-wrap: anywhere;
+}
+
+#statistics-display {
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid #dce4dc;
+    font-size: 14px;
+}
+
+/* Tutorial może być szerszy na komputerze. */
+#tutorial-screen {
+    max-width: 960px;
+    text-align: left;
+}
+
+#tutorial-title {
+    text-align: center;
+}
+
+#tutorial-select {
+    margin: 12px 0 20px;
+}
+
+#tutorial-content {
+    min-width: 0;
+    line-height: 1.7;
+    overflow-wrap: anywhere;
+}
+
+/* Szeroką tabelę przewijamy wewnątrz jej ramki. */
+.tutorial-table-wrapper {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 0;
+    overflow-x: auto;
+}
+
+.tutorial-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    overflow-wrap: normal;
+}
+
+.tutorial-table caption {
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.tutorial-table th,
+.tutorial-table td {
+    min-width: 110px;
+    padding: 10px 12px;
+
+    border: 1px solid #aab7ae;
+    text-align: left;
+    vertical-align: top;
+}
+
+.tutorial-table th {
+    background-color: #e1eae3;
+}
+
+.tutorial-example {
+    margin: 18px 0;
+    padding-left: 12px;
+    border-left: 3px solid #657269;
+}
+
+.tutorial-example p {
+    margin: 4px 0;
+}
+
+.grammar-ending {
+    color: #0756a3;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+
+.grammar-stem {
+    color: #8a4500;
+    font-weight: 700;
+    text-decoration: underline dotted;
+    text-underline-offset: 3px;
+}
+
+.grammar-legend {
+    padding: 12px;
+    background-color: #eef4fa;
+    border-radius: 8px;
+}
+
+.grammar-ending-summary {
+    margin-top: 28px;
+    padding-top: 16px;
+    border-top: 2px solid #657269;
+}
+
+@media (max-width: 380px) {
+    body > section {
+        padding: 18px 12px;
+    }
+
+    .tutorial-table th,
+    .tutorial-table td {
+        padding: 8px;
+    }
+}
