@@ -11,7 +11,7 @@ let quizScore = 0;
 let answerChecked = false;
 let mistakenWords = [];
 let canAcceptAnswer = false;
-
+let listeningMistakes = [];
 // Ekrany aplikacji.
 const menuScreen = document.getElementById("menu-screen");
 const learnScreen = document.getElementById("learn-screen");
@@ -44,6 +44,9 @@ const reviewButton = document.getElementById("review-button");
 const statisticsDisplay = document.getElementById("statistics-display");
 const acceptAnswerButton = document.getElementById("accept-answer-button");
 const practiceButton = document.getElementById("practice-button");
+const listeningReviewButton =document.getElementById("listening-review-button");
+
+
 // Wczytanie zapisanych statystyk i własnych synonimów.
 let statistics = loadStatistics();
 let savedSynonyms = loadSavedSynonyms();
@@ -717,6 +720,7 @@ function showScreen(screen) {
     quizScreen.hidden = true;
     grammarScreen.hidden = true;
     tutorialScreen.hidden = true;
+    listeningScreen.hidden = true;
 
     screen.hidden = false;
 }
@@ -798,20 +802,26 @@ function pronounceWord() {
 function showWord() {
     const currentWord = learningWords[currentIndex];
 
+    if (!currentWord) {
+        return;
+    }
+
     polishWord.textContent = currentWord.polish;
     englishWord.textContent = currentWord.english;
 
-    if (currentIndex === learningWords.length - 1) {
-        nextButton.textContent = "Practice these words";
-    } else {
-        nextButton.textContent = "Next word";
-    }
+    nextButton.textContent =
+        currentIndex === learningWords.length - 1
+            ? "Practice these words"
+            : "Next word";
 }
 
 // Po ostatnim słowie losuje nowy zestaw do nauki.
 function nextWord() {
-    // Po ostatnim słowie uruchamia quiz z tego zestawu.
-    if (currentIndex === learningWords.length - 1) {
+    if (learningWords.length === 0) {
+        return;
+    }
+
+    if (currentIndex >= learningWords.length - 1) {
         practiceLearningWords();
         return;
     }
@@ -1080,6 +1090,7 @@ function practiceLearningWords() {
         return;
     }
 
+    // Te same słowa co podczas nauki, w zmienionej kolejności.
     quizWords = shuffleWords(learningWords);
 
     quizIndex = 0;
@@ -1123,9 +1134,464 @@ try {
     console.warn("Could not read selected level:", error);
 }
 
-// Uruchomienie aplikacji.
+    // ========================================
+// SŁUCHANIE ZDAŃ
+// ========================================
+
+// Elementy ekranu słuchania.
+const listeningButton =
+    document.getElementById("listening-button");
+
+const listeningScreen =
+    document.getElementById("listening-screen");
+
+const listeningTitle =
+    document.getElementById("listening-title");
+
+const listeningCounter =
+    document.getElementById("listening-counter");
+
+const listeningScoreDisplay =
+    document.getElementById("listening-score");
+
+const listeningStatus =
+    document.getElementById("listening-status");
+
+const listeningPlayButton =
+    document.getElementById("listening-play-button");
+
+const listeningSlowButton =
+    document.getElementById("listening-slow-button");
+
+const listeningForm =
+    document.getElementById("listening-form");
+
+const listeningAnswer =
+    document.getElementById("listening-answer");
+
+const listeningCheckButton =
+    document.getElementById("listening-check-button");
+
+const listeningFeedback =
+    document.getElementById("listening-feedback");
+
+const listeningCorrect =
+    document.getElementById("listening-correct");
+
+const listeningTranslation =
+    document.getElementById("listening-translation");
+
+const listeningNextButton =
+    document.getElementById("listening-next-button");
+
+const listeningBackButton =
+    document.getElementById("listening-back-button");
+
+// Stan sesji słuchania.
+let listeningSentences = [];
+let listeningIndex = 0;
+let listeningScore = 0;
+let listeningChecked = false;
+let listeningLoadId = 0;
+let listeningUtterance = null;
+
+// Sprawdza dostępność syntezatora mowy.
+function hasListeningSpeech() {
+    return (
+        "speechSynthesis" in window &&
+        "SpeechSynthesisUtterance" in window
+    );
+}
+
+// Zatrzymuje aktualny odczyt.
+function stopListeningAudio() {
+    listeningUtterance = null;
+
+    if (hasListeningSpeech()) {
+        window.speechSynthesis.cancel();
+    }
+}
+
+// Wczytuje i losuje do 10 zdań z wybranego poziomu.
+async function startListening() {
+    const currentLoadId = ++listeningLoadId;
+    const selectedLevel = levelSelect.value;
+
+    stopListeningAudio();
+    showScreen(listeningScreen);
+
+    listeningSentences = [];
+    listeningMistakes = [];
+    listeningIndex = 0;
+    listeningScore = 0;
+    listeningChecked = false;
+
+    listeningTitle.textContent =
+        selectedLevel + " · Listening";
+
+    listeningCounter.textContent = "";
+    listeningScoreDisplay.textContent = "";
+    listeningStatus.textContent = "Loading sentences...";
+    listeningFeedback.textContent = "";
+    listeningCorrect.textContent = "";
+    listeningTranslation.textContent = "";
+
+    listeningReviewButton.hidden = true;
+    listeningForm.hidden = true;
+    listeningNextButton.hidden = true;
+    listeningNextButton.disabled = true;
+    listeningPlayButton.disabled = true;
+    listeningSlowButton.disabled = true;
+
+    if (!hasListeningSpeech()) {
+        listeningStatus.textContent =
+            "Speech is not supported in this browser.";
+        return;
+    }
+
+    try {
+        const response = await fetch(
+            "./listening_sentences.json"
+        );
+
+        if (!response.ok) {
+            throw new Error(
+                "Could not load listening_sentences.json."
+            );
+        }
+
+        const data = await response.json();
+
+        // Pomija wynik pobierania po wyjściu z ekranu.
+        if (currentLoadId !== listeningLoadId) {
+            return;
+        }
+
+        const entries = data?.[selectedLevel];
+
+        if (!Array.isArray(entries)) {
+            throw new Error(
+                "Missing sentences for " + selectedLevel
+            );
+        }
+
+        const validEntries = entries.filter(function (entry) {
+            return (
+                entry !== null &&
+                typeof entry === "object" &&
+                typeof entry.polish === "string" &&
+                entry.polish.trim() !== "" &&
+                typeof entry.english === "string"
+            );
+        });
+
+        if (validEntries.length === 0) {
+            listeningStatus.textContent =
+                "No sentences available for this level.";
+            return;
+        }
+
+        listeningSentences =
+            shuffleWords(validEntries).slice(0, 10);
+
+        listeningForm.hidden = false;
+        listeningNextButton.hidden = false;
+
+        showListeningSentence();
+    } catch (error) {
+        if (currentLoadId !== listeningLoadId) {
+            return;
+        }
+
+        console.error(error);
+
+        listeningStatus.textContent =
+            "Could not load listening_sentences.json.";
+    }
+}
+
+// Przygotowuje pytanie bez pokazywania zdania.
+function showListeningSentence() {
+    stopListeningAudio();
+
+    listeningChecked = false;
+
+    listeningCounter.textContent =
+        "Sentence " + (listeningIndex + 1) +
+        " / " + listeningSentences.length;
+
+    listeningScoreDisplay.textContent =
+        "Correct answers: " + listeningScore;
+
+    listeningStatus.textContent =
+        "Press Listen to hear the sentence.";
+
+    listeningAnswer.value = "";
+    listeningAnswer.readOnly = false;
+
+    listeningFeedback.textContent = "";
+    listeningCorrect.textContent = "";
+    listeningTranslation.textContent = "";
+
+    listeningPlayButton.disabled = false;
+    listeningSlowButton.disabled = false;
+    listeningCheckButton.disabled = false;
+    listeningNextButton.disabled = true;
+
+    listeningNextButton.textContent =
+        listeningIndex === listeningSentences.length - 1
+            ? "Show result"
+            : "Next sentence";
+}
+
+// Odczytuje zdanie z wybraną prędkością.
+function playListeningSentence(rate) {
+    const sentence = listeningSentences[listeningIndex];
+
+    if (
+        !sentence ||
+        listeningScreen.hidden ||
+        !hasListeningSpeech()
+    ) {
+        return;
+    }
+
+    stopListeningAudio();
+
+    const utterance =
+        new SpeechSynthesisUtterance(sentence.polish);
+
+    utterance.lang = "pl-PL";
+    utterance.rate = rate;
+
+    const polishVoice = window.speechSynthesis
+        .getVoices()
+        .find(function (voice) {
+            return /^pl(?:-|$)/i.test(
+                voice.lang.replace(/_/g, "-")
+            );
+        });
+
+    if (polishVoice) {
+        utterance.voice = polishVoice;
+    }
+
+    listeningUtterance = utterance;
+    listeningStatus.textContent = "Playing...";
+
+    utterance.onend = function () {
+        if (listeningUtterance !== utterance) {
+            return;
+        }
+
+        listeningStatus.textContent =
+            "You can listen again or enter your answer.";
+
+        listeningUtterance = null;
+    };
+
+    utterance.onerror = function () {
+        if (listeningUtterance !== utterance) {
+            return;
+        }
+
+        listeningStatus.textContent =
+            "Could not play audio. Try again and check " +
+            "the device's Polish voice.";
+
+        listeningUtterance = null;
+    };
+
+    window.speechSynthesis.speak(utterance);
+}
+
+// Ignoruje interpunkcję, wielkość liter i dodatkowe odstępy.
+// Polskie znaki oraz kolejność słów pozostają istotne.
+function normalizeListeningAnswer(text) {
+    return text
+        .normalize("NFC")
+        .toLowerCase()
+        .replace(/[.,!?;:…„”"«»“”()—–\-]/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+}
+
+// Sprawdza odpowiedź tylko raz dla danego pytania.
+function checkListeningAnswer(event) {
+    event.preventDefault();
+
+    if (
+        listeningChecked ||
+        listeningIndex >= listeningSentences.length
+    ) {
+        return;
+    }
+
+    const userAnswer =
+        normalizeListeningAnswer(listeningAnswer.value);
+
+    if (userAnswer === "") {
+        listeningFeedback.textContent =
+            "Please enter an answer.";
+        return;
+    }
+
+    stopListeningAudio();
+    listeningStatus.textContent = "";
+
+    const sentence = listeningSentences[listeningIndex];
+
+    const isCorrect =
+        userAnswer ===
+        normalizeListeningAnswer(sentence.polish);
+
+    if (isCorrect) {
+        listeningScore = listeningScore + 1;
+        listeningFeedback.textContent = "Correct!";
+    } else {
+        listeningMistakes.push(sentence);
+
+        listeningFeedback.textContent =
+            "Not quite. Compare your answer " +
+            "with the sentence below.";
+    }
+
+    if (isCorrect) {
+    listeningCorrect.textContent =
+        "Correct sentence: " + sentence.polish;
+    } else {
+    showListeningDifferences(
+        listeningAnswer.value,
+        sentence.polish
+        );
+    }
+
+    listeningTranslation.textContent =
+        "English: " + sentence.english;
+
+    listeningScoreDisplay.textContent =
+        "Correct answers: " + listeningScore;
+
+    listeningChecked = true;
+    listeningAnswer.readOnly = true;
+    listeningCheckButton.disabled = true;
+    listeningNextButton.disabled = false;
+}
+
+// Przechodzi do następnego zdania lub wyniku.
+function nextListeningSentence() {
+    if (
+        !listeningChecked ||
+        listeningIndex >= listeningSentences.length
+    ) {
+        return;
+    }
+
+    listeningIndex = listeningIndex + 1;
+
+    if (listeningIndex >= listeningSentences.length) {
+        showListeningResult();
+        return;
+    }
+
+    showListeningSentence();
+}
+
+// Pokazuje wynik i przycisk powtórki błędów.
+function showListeningResult() {
+    stopListeningAudio();
+
+    listeningCounter.textContent = "Session complete";
+    listeningStatus.textContent = "";
+
+    listeningFeedback.textContent =
+        listeningScore + " / " +
+        listeningSentences.length + " correct answers";
+
+    listeningCorrect.textContent = "";
+    listeningTranslation.textContent = "";
+
+    listeningForm.hidden = true;
+    listeningNextButton.hidden = true;
+    listeningPlayButton.disabled = true;
+    listeningSlowButton.disabled = true;
+
+    listeningReviewButton.hidden =
+        listeningMistakes.length === 0;
+}
+
+// Uruchamia nową sesję wyłącznie z błędnych zdań.
+function reviewListeningMistakes() {
+    if (listeningMistakes.length === 0) {
+        return;
+    }
+
+    stopListeningAudio();
+
+    listeningSentences =
+        shuffleWords(listeningMistakes);
+
+    listeningMistakes = [];
+    listeningIndex = 0;
+    listeningScore = 0;
+    listeningChecked = false;
+
+    listeningReviewButton.hidden = true;
+    listeningForm.hidden = false;
+    listeningNextButton.hidden = false;
+
+    showListeningSentence();
+}
+
+// Wraca do menu i unieważnia trwające pobieranie.
+function leaveListening() {
+    listeningLoadId = listeningLoadId + 1;
+    stopListeningAudio();
+    showMenu();
+}
+
+// Obsługa przycisków słuchania.
+listeningButton.addEventListener(
+    "click",
+    startListening
+);
+
+listeningPlayButton.addEventListener("click", function () {
+    playListeningSentence(0.9);
+});
+
+listeningSlowButton.addEventListener("click", function () {
+    playListeningSentence(0.65);
+});
+
+listeningForm.addEventListener(
+    "submit",
+    checkListeningAnswer
+);
+
+listeningNextButton.addEventListener(
+    "click",
+    nextListeningSentence
+);
+
+listeningReviewButton.addEventListener(
+    "click",
+    reviewListeningMistakes
+);
+
+listeningBackButton.addEventListener(
+    "click",
+    leaveListening
+);
+
+// ========================================
+// URUCHOMIENIE APLIKACJI
+// ========================================
+
 showMenu();
 loadVocabulary();
+
+// Rejestruje obsługę działania offline.
 if ("serviceWorker" in navigator) {
     window.addEventListener("load", function () {
         navigator.serviceWorker

@@ -302,3 +302,30 @@ form {
         padding: 8px;
     }
 }
+.listening-comparison-line {
+    display: block;
+    margin: 12px 0;
+    line-height: 1.8;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+.listening-word-wrong {
+    color: #9c2020;
+    background-color: #fde8e8;
+    text-decoration: line-through;
+    font-weight: bold;
+    padding: 2px 3px;
+    border-radius: 4px;
+}
+
+.listening-word-correct {
+    color: #176137;
+    background-color: #e3f4e8;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    font-weight: bold;
+    padding: 2px 3px;
+    border-radius: 4px;
+}

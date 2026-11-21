@@ -1,0 +1,1510 @@
+{
+  "A1": [
+    {
+      "id": "A1-001",
+      "polish": "Mam małego psa.",
+      "english": "I have a small dog."
+    },
+    {
+      "id": "A1-002",
+      "polish": "Mam nowy telefon.",
+      "english": "I have a new phone."
+    },
+    {
+      "id": "A1-003",
+      "polish": "Mam starszą siostrę.",
+      "english": "I have an older sister."
+    },
+    {
+      "id": "A1-004",
+      "polish": "Mam czerwony plecak.",
+      "english": "I have a red backpack."
+    },
+    {
+      "id": "A1-005",
+      "polish": "Mam dużą rodzinę.",
+      "english": "I have a big family."
+    },
+    {
+      "id": "A1-006",
+      "polish": "Ona czyta książkę.",
+      "english": "She is reading a book."
+    },
+    {
+      "id": "A1-007",
+      "polish": "Ona czyta gazetę.",
+      "english": "She is reading a newspaper."
+    },
+    {
+      "id": "A1-008",
+      "polish": "Ona czyta list.",
+      "english": "She is reading a letter."
+    },
+    {
+      "id": "A1-009",
+      "polish": "Ona czyta wiadomość.",
+      "english": "She is reading a message."
+    },
+    {
+      "id": "A1-010",
+      "polish": "Ona czyta menu.",
+      "english": "She is reading the menu."
+    },
+    {
+      "id": "A1-011",
+      "polish": "Mieszkamy w Warszawie.",
+      "english": "We live in Warsaw."
+    },
+    {
+      "id": "A1-012",
+      "polish": "Mieszkamy w małym mieście.",
+      "english": "We live in a small town."
+    },
+    {
+      "id": "A1-013",
+      "polish": "Mieszkamy blisko szkoły.",
+      "english": "We live near the school."
+    },
+    {
+      "id": "A1-014",
+      "polish": "Mieszkamy nad morzem.",
+      "english": "We live by the sea."
+    },
+    {
+      "id": "A1-015",
+      "polish": "Mieszkamy z rodzicami.",
+      "english": "We live with our parents."
+    },
+    {
+      "id": "A1-016",
+      "polish": "Czy masz dzisiaj czas?",
+      "english": "Do you have time today?"
+    },
+    {
+      "id": "A1-017",
+      "polish": "Czy masz bilet na autobus?",
+      "english": "Do you have a bus ticket?"
+    },
+    {
+      "id": "A1-018",
+      "polish": "Czy masz polski słownik?",
+      "english": "Do you have a Polish dictionary?"
+    },
+    {
+      "id": "A1-019",
+      "polish": "Czy masz mój numer telefonu?",
+      "english": "Do you have my phone number?"
+    },
+    {
+      "id": "A1-020",
+      "polish": "Czy masz coś do picia?",
+      "english": "Do you have anything to drink?"
+    },
+    {
+      "id": "A1-021",
+      "polish": "Chcę kupić wodę.",
+      "english": "I want to buy some water."
+    },
+    {
+      "id": "A1-022",
+      "polish": "Chcę kupić świeży chleb.",
+      "english": "I want to buy some fresh bread."
+    },
+    {
+      "id": "A1-023",
+      "polish": "Chcę kupić dwa jabłka.",
+      "english": "I want to buy two apples."
+    },
+    {
+      "id": "A1-024",
+      "polish": "Chcę kupić ciepłą kurtkę.",
+      "english": "I want to buy a warm jacket."
+    },
+    {
+      "id": "A1-025",
+      "polish": "Chcę kupić bilet do kina.",
+      "english": "I want to buy a cinema ticket."
+    },
+    {
+      "id": "A1-026",
+      "polish": "Mój brat pracuje w sklepie.",
+      "english": "My brother works in a shop."
+    },
+    {
+      "id": "A1-027",
+      "polish": "Mój brat pracuje w szkole.",
+      "english": "My brother works at a school."
+    },
+    {
+      "id": "A1-028",
+      "polish": "Mój brat pracuje w szpitalu.",
+      "english": "My brother works at a hospital."
+    },
+    {
+      "id": "A1-029",
+      "polish": "Mój brat pracuje w domu.",
+      "english": "My brother works at home."
+    },
+    {
+      "id": "A1-030",
+      "polish": "Mój brat pracuje w restauracji.",
+      "english": "My brother works in a restaurant."
+    },
+    {
+      "id": "A1-031",
+      "polish": "Ta kawa jest bardzo dobra.",
+      "english": "This coffee is very good."
+    },
+    {
+      "id": "A1-032",
+      "polish": "Ta kawa jest za gorąca.",
+      "english": "This coffee is too hot."
+    },
+    {
+      "id": "A1-033",
+      "polish": "Ta kawa jest zimna.",
+      "english": "This coffee is cold."
+    },
+    {
+      "id": "A1-034",
+      "polish": "Ta kawa jest bez cukru.",
+      "english": "This coffee is without sugar."
+    },
+    {
+      "id": "A1-035",
+      "polish": "Ta kawa jest dla ciebie.",
+      "english": "This coffee is for you."
+    },
+    {
+      "id": "A1-036",
+      "polish": "Gdzie jest przystanek?",
+      "english": "Where is the bus stop?"
+    },
+    {
+      "id": "A1-037",
+      "polish": "Gdzie jest najbliższy sklep?",
+      "english": "Where is the nearest shop?"
+    },
+    {
+      "id": "A1-038",
+      "polish": "Gdzie jest moja torba?",
+      "english": "Where is my bag?"
+    },
+    {
+      "id": "A1-039",
+      "polish": "Gdzie jest twoja szkoła?",
+      "english": "Where is your school?"
+    },
+    {
+      "id": "A1-040",
+      "polish": "Gdzie jest nasz autobus?",
+      "english": "Where is our bus?"
+    },
+    {
+      "id": "A1-041",
+      "polish": "Jutro idziemy do kina.",
+      "english": "Tomorrow we are going to the cinema."
+    },
+    {
+      "id": "A1-042",
+      "polish": "Jutro idziemy do szkoły.",
+      "english": "Tomorrow we are going to school."
+    },
+    {
+      "id": "A1-043",
+      "polish": "Jutro idziemy na spacer.",
+      "english": "Tomorrow we are going for a walk."
+    },
+    {
+      "id": "A1-044",
+      "polish": "Jutro idziemy na obiad.",
+      "english": "Tomorrow we are going out for lunch."
+    },
+    {
+      "id": "A1-045",
+      "polish": "Jutro idziemy do muzeum.",
+      "english": "Tomorrow we are going to the museum."
+    },
+    {
+      "id": "A1-046",
+      "polish": "Nie rozumiem tego słowa.",
+      "english": "I do not understand this word."
+    },
+    {
+      "id": "A1-047",
+      "polish": "Nie rozumiem tego pytania.",
+      "english": "I do not understand this question."
+    },
+    {
+      "id": "A1-048",
+      "polish": "Nie rozumiem tego zdania.",
+      "english": "I do not understand this sentence."
+    },
+    {
+      "id": "A1-049",
+      "polish": "Nie rozumiem tej odpowiedzi.",
+      "english": "I do not understand this answer."
+    },
+    {
+      "id": "A1-050",
+      "polish": "Nie rozumiem tej rozmowy.",
+      "english": "I do not understand this conversation."
+    },
+    {
+      "id": "A1-051",
+      "polish": "Lubię polską muzykę.",
+      "english": "I like Polish music."
+    },
+    {
+      "id": "A1-052",
+      "polish": "Lubię zieloną herbatę.",
+      "english": "I like green tea."
+    },
+    {
+      "id": "A1-053",
+      "polish": "Lubię długie spacery.",
+      "english": "I like long walks."
+    },
+    {
+      "id": "A1-054",
+      "polish": "Lubię moje miasto.",
+      "english": "I like my city."
+    },
+    {
+      "id": "A1-055",
+      "polish": "Lubię ten film.",
+      "english": "I like this film."
+    },
+    {
+      "id": "A1-056",
+      "polish": "Na stole jest szklanka wody.",
+      "english": "There is a glass of water on the table."
+    },
+    {
+      "id": "A1-057",
+      "polish": "Na stole jest mała książka.",
+      "english": "There is a small book on the table."
+    },
+    {
+      "id": "A1-058",
+      "polish": "Na stole jest biały talerz.",
+      "english": "There is a white plate on the table."
+    },
+    {
+      "id": "A1-059",
+      "polish": "Na stole jest twój klucz.",
+      "english": "There is your key on the table."
+    },
+    {
+      "id": "A1-060",
+      "polish": "Na stole jest świeży chleb.",
+      "english": "There is some fresh bread on the table."
+    },
+    {
+      "id": "A1-061",
+      "polish": "Codziennie uczę się polskiego.",
+      "english": "Every day I study Polish."
+    },
+    {
+      "id": "A1-062",
+      "polish": "Codziennie piję herbatę.",
+      "english": "Every day I drink tea."
+    },
+    {
+      "id": "A1-063",
+      "polish": "Codziennie czytam książkę.",
+      "english": "Every day I read a book."
+    },
+    {
+      "id": "A1-064",
+      "polish": "Codziennie chodzę do pracy.",
+      "english": "Every day I go to work."
+    },
+    {
+      "id": "A1-065",
+      "polish": "Codziennie gotuję obiad.",
+      "english": "Every day I cook lunch."
+    },
+    {
+      "id": "A1-066",
+      "polish": "Proszę otworzyć okno.",
+      "english": "Please open the window."
+    },
+    {
+      "id": "A1-067",
+      "polish": "Proszę zamknąć drzwi.",
+      "english": "Please close the door."
+    },
+    {
+      "id": "A1-068",
+      "polish": "Proszę usiąść tutaj.",
+      "english": "Please sit here."
+    },
+    {
+      "id": "A1-069",
+      "polish": "Proszę powtórzyć pytanie.",
+      "english": "Please repeat the question."
+    },
+    {
+      "id": "A1-070",
+      "polish": "Proszę poczekać chwilę.",
+      "english": "Please wait a moment."
+    },
+    {
+      "id": "A1-071",
+      "polish": "Moja mama dobrze gotuje.",
+      "english": "My mother cooks well."
+    },
+    {
+      "id": "A1-072",
+      "polish": "Moja mama mówi po angielsku.",
+      "english": "My mother speaks English."
+    },
+    {
+      "id": "A1-073",
+      "polish": "Moja mama lubi kwiaty.",
+      "english": "My mother likes flowers."
+    },
+    {
+      "id": "A1-074",
+      "polish": "Moja mama teraz odpoczywa.",
+      "english": "My mother is resting now."
+    },
+    {
+      "id": "A1-075",
+      "polish": "Moja mama jest nauczycielką.",
+      "english": "My mother is a teacher."
+    }
+  ],
+  "A2": [
+    {
+      "id": "A2-001",
+      "polish": "Wczoraj spotkałam koleżankę na dworcu.",
+      "english": "Yesterday I met a female friend at the station."
+    },
+    {
+      "id": "A2-002",
+      "polish": "Wczoraj spotkałam koleżankę przed szkołą.",
+      "english": "Yesterday I met a female friend in front of the school."
+    },
+    {
+      "id": "A2-003",
+      "polish": "Wczoraj spotkałam koleżankę w bibliotece.",
+      "english": "Yesterday I met a female friend in the library."
+    },
+    {
+      "id": "A2-004",
+      "polish": "Wczoraj spotkałam koleżankę podczas spaceru.",
+      "english": "Yesterday I met a female friend during a walk."
+    },
+    {
+      "id": "A2-005",
+      "polish": "Wczoraj spotkałam koleżankę w centrum miasta.",
+      "english": "Yesterday I met a female friend in the city centre."
+    },
+    {
+      "id": "A2-006",
+      "polish": "Musimy wyjść wcześniej, żeby zdążyć na autobus.",
+      "english": "We need to leave earlier to catch the bus."
+    },
+    {
+      "id": "A2-007",
+      "polish": "Musimy wyjść wcześniej, żeby kupić bilety.",
+      "english": "We need to leave earlier to buy tickets."
+    },
+    {
+      "id": "A2-008",
+      "polish": "Musimy wyjść wcześniej, żeby odebrać dzieci.",
+      "english": "We need to leave earlier to pick up the children."
+    },
+    {
+      "id": "A2-009",
+      "polish": "Musimy wyjść wcześniej, żeby zrobić zakupy.",
+      "english": "We need to leave earlier to do the shopping."
+    },
+    {
+      "id": "A2-010",
+      "polish": "Musimy wyjść wcześniej, żeby znaleźć dobre miejsce.",
+      "english": "We need to leave earlier to find a good spot."
+    },
+    {
+      "id": "A2-011",
+      "polish": "Ten pokój jest większy niż tamten.",
+      "english": "This room is bigger than that one."
+    },
+    {
+      "id": "A2-012",
+      "polish": "Ten pokój jest mniejszy niż tamten.",
+      "english": "This room is smaller than that one."
+    },
+    {
+      "id": "A2-013",
+      "polish": "Ten pokój jest jaśniejszy niż tamten.",
+      "english": "This room is brighter than that one."
+    },
+    {
+      "id": "A2-014",
+      "polish": "Ten pokój jest tańszy niż tamten.",
+      "english": "This room is cheaper than that one."
+    },
+    {
+      "id": "A2-015",
+      "polish": "Ten pokój jest cieplejszy niż tamten.",
+      "english": "This room is warmer than that one."
+    },
+    {
+      "id": "A2-016",
+      "polish": "W przyszłym tygodniu odwiedzimy dziadków.",
+      "english": "Next week we will visit our grandparents."
+    },
+    {
+      "id": "A2-017",
+      "polish": "W przyszłym tygodniu pojedziemy nad morze.",
+      "english": "Next week we will go to the seaside."
+    },
+    {
+      "id": "A2-018",
+      "polish": "W przyszłym tygodniu zaczniemy nowy kurs.",
+      "english": "Next week we will start a new course."
+    },
+    {
+      "id": "A2-019",
+      "polish": "W przyszłym tygodniu kupimy nowe meble.",
+      "english": "Next week we will buy new furniture."
+    },
+    {
+      "id": "A2-020",
+      "polish": "W przyszłym tygodniu spotkamy się z sąsiadami.",
+      "english": "Next week we will meet our neighbours."
+    },
+    {
+      "id": "A2-021",
+      "polish": "Nie mogę znaleźć kluczy do mieszkania.",
+      "english": "I cannot find the keys to the apartment."
+    },
+    {
+      "id": "A2-022",
+      "polish": "Nie mogę znaleźć mojego portfela.",
+      "english": "I cannot find my wallet."
+    },
+    {
+      "id": "A2-023",
+      "polish": "Nie mogę znaleźć numeru rezerwacji.",
+      "english": "I cannot find the booking number."
+    },
+    {
+      "id": "A2-024",
+      "polish": "Nie mogę znaleźć ulubionej koszuli.",
+      "english": "I cannot find my favourite shirt."
+    },
+    {
+      "id": "A2-025",
+      "polish": "Nie mogę znaleźć biletów na koncert.",
+      "english": "I cannot find the concert tickets."
+    },
+    {
+      "id": "A2-026",
+      "polish": "Kiedy wrócisz do domu, zadzwoń do mnie.",
+      "english": "When you get home, call me."
+    },
+    {
+      "id": "A2-027",
+      "polish": "Kiedy wrócisz do domu, nakarm kota.",
+      "english": "When you get home, feed the cat."
+    },
+    {
+      "id": "A2-028",
+      "polish": "Kiedy wrócisz do domu, otwórz okna.",
+      "english": "When you get home, open the windows."
+    },
+    {
+      "id": "A2-029",
+      "polish": "Kiedy wrócisz do domu, sprawdź pocztę.",
+      "english": "When you get home, check the mail."
+    },
+    {
+      "id": "A2-030",
+      "polish": "Kiedy wrócisz do domu, przygotuj kolację.",
+      "english": "When you get home, prepare dinner."
+    },
+    {
+      "id": "A2-031",
+      "polish": "W sobotę chcielibyśmy zwiedzić stare miasto.",
+      "english": "On Saturday we would like to explore the old town."
+    },
+    {
+      "id": "A2-032",
+      "polish": "W sobotę chcielibyśmy wybrać się na wycieczkę.",
+      "english": "On Saturday we would like to go on a trip."
+    },
+    {
+      "id": "A2-033",
+      "polish": "W sobotę chcielibyśmy zaprosić was na obiad.",
+      "english": "On Saturday we would like to invite you for lunch."
+    },
+    {
+      "id": "A2-034",
+      "polish": "W sobotę chcielibyśmy zostać w domu.",
+      "english": "On Saturday we would like to stay at home."
+    },
+    {
+      "id": "A2-035",
+      "polish": "W sobotę chcielibyśmy obejrzeć nowy film.",
+      "english": "On Saturday we would like to watch a new film."
+    },
+    {
+      "id": "A2-036",
+      "polish": "Przepraszam, czy mogę zapłacić kartą?",
+      "english": "Excuse me, may I pay by card?"
+    },
+    {
+      "id": "A2-037",
+      "polish": "Przepraszam, czy mogę otworzyć okno?",
+      "english": "Excuse me, may I open the window?"
+    },
+    {
+      "id": "A2-038",
+      "polish": "Przepraszam, czy mogę usiąść obok pani?",
+      "english": "Excuse me, may I sit next to you?"
+    },
+    {
+      "id": "A2-039",
+      "polish": "Przepraszam, czy mogę zostawić tutaj walizkę?",
+      "english": "Excuse me, may I leave my suitcase here?"
+    },
+    {
+      "id": "A2-040",
+      "polish": "Przepraszam, czy mogę poprosić o rachunek?",
+      "english": "Excuse me, may I ask for the bill?"
+    },
+    {
+      "id": "A2-041",
+      "polish": "Boli mnie głowa, więc odpoczywam.",
+      "english": "My head hurts, so I am resting."
+    },
+    {
+      "id": "A2-042",
+      "polish": "Boli mnie noga, więc odpoczywam.",
+      "english": "My leg hurts, so I am resting."
+    },
+    {
+      "id": "A2-043",
+      "polish": "Boli mnie ręka, więc odpoczywam.",
+      "english": "My arm hurts, so I am resting."
+    },
+    {
+      "id": "A2-044",
+      "polish": "Boli mnie gardło, więc odpoczywam.",
+      "english": "My throat hurts, so I am resting."
+    },
+    {
+      "id": "A2-045",
+      "polish": "Boli mnie brzuch, więc odpoczywam.",
+      "english": "My stomach hurts, so I am resting."
+    },
+    {
+      "id": "A2-046",
+      "polish": "Od dwóch miesięcy uczę się pływać.",
+      "english": "For two months I have been learning to swim."
+    },
+    {
+      "id": "A2-047",
+      "polish": "Od dwóch miesięcy pracuję w nowej firmie.",
+      "english": "For two months I have been working at a new company."
+    },
+    {
+      "id": "A2-048",
+      "polish": "Od dwóch miesięcy szukam mieszkania.",
+      "english": "For two months I have been looking for an apartment."
+    },
+    {
+      "id": "A2-049",
+      "polish": "Od dwóch miesięcy chodzę na kurs polskiego.",
+      "english": "For two months I have been attending a Polish course."
+    },
+    {
+      "id": "A2-050",
+      "polish": "Od dwóch miesięcy regularnie biegam.",
+      "english": "For two months I have been running regularly."
+    },
+    {
+      "id": "A2-051",
+      "polish": "W lodówce nie ma już mleka.",
+      "english": "There is no milk left in the fridge."
+    },
+    {
+      "id": "A2-052",
+      "polish": "W lodówce nie ma już masła.",
+      "english": "There is no butter left in the fridge."
+    },
+    {
+      "id": "A2-053",
+      "polish": "W lodówce nie ma już sera.",
+      "english": "There is no cheese left in the fridge."
+    },
+    {
+      "id": "A2-054",
+      "polish": "W lodówce nie ma już jogurtu.",
+      "english": "There is no yogurt left in the fridge."
+    },
+    {
+      "id": "A2-055",
+      "polish": "W lodówce nie ma już soku.",
+      "english": "There is no juice left in the fridge."
+    },
+    {
+      "id": "A2-056",
+      "polish": "Kupiłem ten plecak, ponieważ był tani.",
+      "english": "I bought this backpack because it was cheap."
+    },
+    {
+      "id": "A2-057",
+      "polish": "Kupiłem ten plecak, ponieważ jest bardzo lekki.",
+      "english": "I bought this backpack because it is very light."
+    },
+    {
+      "id": "A2-058",
+      "polish": "Kupiłem ten plecak, ponieważ ma dużo kieszeni.",
+      "english": "I bought this backpack because it has many pockets."
+    },
+    {
+      "id": "A2-059",
+      "polish": "Kupiłem ten plecak, ponieważ potrzebowałem nowego.",
+      "english": "I bought this backpack because I needed a new one."
+    },
+    {
+      "id": "A2-060",
+      "polish": "Kupiłem ten plecak, ponieważ podobał mi się jego kolor.",
+      "english": "I bought this backpack because I liked its colour."
+    },
+    {
+      "id": "A2-061",
+      "polish": "Czy wiesz, o której odjeżdża pociąg?",
+      "english": "Do you know what time the train leaves?"
+    },
+    {
+      "id": "A2-062",
+      "polish": "Czy wiesz, o której zaczyna się film?",
+      "english": "Do you know what time the film starts?"
+    },
+    {
+      "id": "A2-063",
+      "polish": "Czy wiesz, o której zamyka się sklep?",
+      "english": "Do you know what time the shop closes?"
+    },
+    {
+      "id": "A2-064",
+      "polish": "Czy wiesz, o której przyjeżdża nasz autobus?",
+      "english": "Do you know what time our bus arrives?"
+    },
+    {
+      "id": "A2-065",
+      "polish": "Czy wiesz, o której kończy się lekcja?",
+      "english": "Do you know what time the lesson ends?"
+    },
+    {
+      "id": "A2-066",
+      "polish": "Proszę skręcić w lewo przy aptece.",
+      "english": "Please turn left at the pharmacy."
+    },
+    {
+      "id": "A2-067",
+      "polish": "Proszę skręcić w lewo przy szkole.",
+      "english": "Please turn left at the school."
+    },
+    {
+      "id": "A2-068",
+      "polish": "Proszę skręcić w lewo przy poczcie.",
+      "english": "Please turn left at the post office."
+    },
+    {
+      "id": "A2-069",
+      "polish": "Proszę skręcić w lewo przy stacji benzynowej.",
+      "english": "Please turn left at the petrol station."
+    },
+    {
+      "id": "A2-070",
+      "polish": "Proszę skręcić w lewo przy następnym skrzyżowaniu.",
+      "english": "Please turn left at the next junction."
+    },
+    {
+      "id": "A2-071",
+      "polish": "Nie pójdziemy na spacer, bo pada deszcz.",
+      "english": "We will not go for a walk because it is raining."
+    },
+    {
+      "id": "A2-072",
+      "polish": "Nie pójdziemy na spacer, bo jest za zimno.",
+      "english": "We will not go for a walk because it is too cold."
+    },
+    {
+      "id": "A2-073",
+      "polish": "Nie pójdziemy na spacer, bo musimy skończyć pracę.",
+      "english": "We will not go for a walk because we need to finish our work."
+    },
+    {
+      "id": "A2-074",
+      "polish": "Nie pójdziemy na spacer, bo dzieci są zmęczone.",
+      "english": "We will not go for a walk because the children are tired."
+    },
+    {
+      "id": "A2-075",
+      "polish": "Nie pójdziemy na spacer, bo robi się ciemno.",
+      "english": "We will not go for a walk because it is getting dark."
+    }
+  ],
+  "B1": [
+    {
+      "id": "B1-001",
+      "polish": "Gdybym miał więcej czasu, częściej chodziłbym na basen.",
+      "english": "If I had more time, I would go swimming more often."
+    },
+    {
+      "id": "B1-002",
+      "polish": "Gdybym miał więcej czasu, nauczyłbym się gotować.",
+      "english": "If I had more time, I would learn to cook."
+    },
+    {
+      "id": "B1-003",
+      "polish": "Gdybym miał więcej czasu, odwiedzałbym rodzinę częściej.",
+      "english": "If I had more time, I would visit my family more often."
+    },
+    {
+      "id": "B1-004",
+      "polish": "Gdybym miał więcej czasu, czytałbym więcej książek.",
+      "english": "If I had more time, I would read more books."
+    },
+    {
+      "id": "B1-005",
+      "polish": "Gdybym miał więcej czasu, zapisałbym się na kurs.",
+      "english": "If I had more time, I would sign up for a course."
+    },
+    {
+      "id": "B1-006",
+      "polish": "To jest osoba, której możesz zaufać.",
+      "english": "This is a person you can trust."
+    },
+    {
+      "id": "B1-007",
+      "polish": "To jest osoba, której pomogłem wczoraj.",
+      "english": "This is a person I helped yesterday."
+    },
+    {
+      "id": "B1-008",
+      "polish": "To jest osoba, której pożyczyłam książkę.",
+      "english": "This is a person I lent a book to."
+    },
+    {
+      "id": "B1-009",
+      "polish": "To jest osoba, której bardzo brakuje mi w pracy.",
+      "english": "This is a person I really miss at work."
+    },
+    {
+      "id": "B1-010",
+      "polish": "To jest osoba, której chcemy podziękować.",
+      "english": "This is a person we want to thank."
+    },
+    {
+      "id": "B1-011",
+      "polish": "Chociaż padał deszcz, postanowiliśmy wyjść na spacer.",
+      "english": "Although it was raining, we decided to go for a walk."
+    },
+    {
+      "id": "B1-012",
+      "polish": "Chociaż padał deszcz, mecz odbył się zgodnie z planem.",
+      "english": "Although it was raining, the match went ahead as planned."
+    },
+    {
+      "id": "B1-013",
+      "polish": "Chociaż padał deszcz, dzieci bawiły się w ogrodzie.",
+      "english": "Although it was raining, the children were playing in the garden."
+    },
+    {
+      "id": "B1-014",
+      "polish": "Chociaż padał deszcz, dotarliśmy na miejsce pieszo.",
+      "english": "Although it was raining, we reached our destination on foot."
+    },
+    {
+      "id": "B1-015",
+      "polish": "Chociaż padał deszcz, nikt nie chciał wracać.",
+      "english": "Although it was raining, none of us wanted to go back."
+    },
+    {
+      "id": "B1-016",
+      "polish": "Kiedy zadzwoniłeś, przygotowywałam obiad.",
+      "english": "When you called, I was preparing dinner."
+    },
+    {
+      "id": "B1-017",
+      "polish": "Kiedy zadzwoniłeś, rozmawiałam z klientem.",
+      "english": "When you called, I was talking to a customer."
+    },
+    {
+      "id": "B1-018",
+      "polish": "Kiedy zadzwoniłeś, czekałam na lekarza.",
+      "english": "When you called, I was waiting to see the doctor."
+    },
+    {
+      "id": "B1-019",
+      "polish": "Kiedy zadzwoniłeś, wracałam z zakupów.",
+      "english": "When you called, I was coming back from shopping."
+    },
+    {
+      "id": "B1-020",
+      "polish": "Kiedy zadzwoniłeś, pisałam wiadomość do siostry.",
+      "english": "When you called, I was writing a message to my sister."
+    },
+    {
+      "id": "B1-021",
+      "polish": "Zależy mi na tym, żeby dobrze nauczyć się polskiego.",
+      "english": "It matters to me that I learn Polish well."
+    },
+    {
+      "id": "B1-022",
+      "polish": "Zależy mi na tym, żeby wszyscy czuli się bezpiecznie.",
+      "english": "It matters to me that everyone feels safe."
+    },
+    {
+      "id": "B1-023",
+      "polish": "Zależy mi na tym, żeby skończyć pracę na czas.",
+      "english": "It matters to me that I finish the work on time."
+    },
+    {
+      "id": "B1-024",
+      "polish": "Zależy mi na tym, żeby poznać waszą opinię.",
+      "english": "It matters to me that I hear your opinion."
+    },
+    {
+      "id": "B1-025",
+      "polish": "Zależy mi na tym, żeby nie stracić z tobą kontaktu.",
+      "english": "It matters to me that I stay in touch with you."
+    },
+    {
+      "id": "B1-026",
+      "polish": "Nie wiedziałem, że przeprowadzasz się do Krakowa.",
+      "english": "I did not know that you were moving to Kraków."
+    },
+    {
+      "id": "B1-027",
+      "polish": "Nie wiedziałem, że spotkanie zostało odwołane.",
+      "english": "I did not know that the meeting had been cancelled."
+    },
+    {
+      "id": "B1-028",
+      "polish": "Nie wiedziałem, że znacie się od dzieciństwa.",
+      "english": "I did not know that you had known each other since childhood."
+    },
+    {
+      "id": "B1-029",
+      "polish": "Nie wiedziałem, że ten sklep jest zamknięty.",
+      "english": "I did not know that that shop was closed."
+    },
+    {
+      "id": "B1-030",
+      "polish": "Nie wiedziałem, że potrafisz grać na gitarze.",
+      "english": "I did not know that you could play the guitar."
+    },
+    {
+      "id": "B1-031",
+      "polish": "Zanim podejmiesz decyzję, porozmawiaj z rodziną.",
+      "english": "Before you make a decision, talk to your family."
+    },
+    {
+      "id": "B1-032",
+      "polish": "Zanim podejmiesz decyzję, porównaj dostępne oferty.",
+      "english": "Before you make a decision, compare the available offers."
+    },
+    {
+      "id": "B1-033",
+      "polish": "Zanim podejmiesz decyzję, przeczytaj dokładnie umowę.",
+      "english": "Before you make a decision, read the contract carefully."
+    },
+    {
+      "id": "B1-034",
+      "polish": "Zanim podejmiesz decyzję, zastanów się nad kosztami.",
+      "english": "Before you make a decision, think about the costs."
+    },
+    {
+      "id": "B1-035",
+      "polish": "Zanim podejmiesz decyzję, sprawdź wszystkie informacje.",
+      "english": "Before you make a decision, check all the information."
+    },
+    {
+      "id": "B1-036",
+      "polish": "Dzięki temu kursowi lepiej rozumiem polską gramatykę.",
+      "english": "Thanks to this course, I understand Polish grammar better."
+    },
+    {
+      "id": "B1-037",
+      "polish": "Dzięki temu kursowi łatwiej nawiązuję nowe znajomości.",
+      "english": "Thanks to this course, I find it easier to meet new people."
+    },
+    {
+      "id": "B1-038",
+      "polish": "Dzięki temu kursowi przestałam bać się rozmów.",
+      "english": "Thanks to this course, I have stopped being afraid of conversations."
+    },
+    {
+      "id": "B1-039",
+      "polish": "Dzięki temu kursowi potrafię napisać oficjalny list.",
+      "english": "Thanks to this course, I can write a formal letter."
+    },
+    {
+      "id": "B1-040",
+      "polish": "Dzięki temu kursowi mówię znacznie pewniej.",
+      "english": "Thanks to this course, I speak much more confidently."
+    },
+    {
+      "id": "B1-041",
+      "polish": "Szukam mieszkania, które znajduje się blisko pracy.",
+      "english": "I am looking for an apartment that is close to work."
+    },
+    {
+      "id": "B1-042",
+      "polish": "Szukam mieszkania, które ma osobną kuchnię.",
+      "english": "I am looking for an apartment that has a separate kitchen."
+    },
+    {
+      "id": "B1-043",
+      "polish": "Szukam mieszkania, które nie wymaga remontu.",
+      "english": "I am looking for an apartment that does not need renovation."
+    },
+    {
+      "id": "B1-044",
+      "polish": "Szukam mieszkania, które będzie odpowiednie dla rodziny.",
+      "english": "I am looking for an apartment that will be suitable for a family."
+    },
+    {
+      "id": "B1-045",
+      "polish": "Szukam mieszkania, które można wynająć na rok.",
+      "english": "I am looking for an apartment that can be rented for a year."
+    },
+    {
+      "id": "B1-046",
+      "polish": "Wolałabym, żebyś powiedział mi prawdę.",
+      "english": "I would prefer you to tell me the truth."
+    },
+    {
+      "id": "B1-047",
+      "polish": "Wolałabym, żebyś przyszedł trochę wcześniej.",
+      "english": "I would prefer you to come a little earlier."
+    },
+    {
+      "id": "B1-048",
+      "polish": "Wolałabym, żebyś nie zostawiał otwartych drzwi.",
+      "english": "I would prefer you to stop leaving the door open."
+    },
+    {
+      "id": "B1-049",
+      "polish": "Wolałabym, żebyś najpierw zapytał o zgodę.",
+      "english": "I would prefer you to ask for permission first."
+    },
+    {
+      "id": "B1-050",
+      "polish": "Wolałabym, żebyś zabrał ze sobą telefon.",
+      "english": "I would prefer you to take your phone with you."
+    },
+    {
+      "id": "B1-051",
+      "polish": "Mimo zmęczenia dokończyłam raport.",
+      "english": "Despite being tired, I finished the report."
+    },
+    {
+      "id": "B1-052",
+      "polish": "Mimo zmęczenia poszłam na trening.",
+      "english": "Despite being tired, I went to training."
+    },
+    {
+      "id": "B1-053",
+      "polish": "Mimo zmęczenia pomogłam sąsiadce.",
+      "english": "Despite being tired, I helped my neighbour."
+    },
+    {
+      "id": "B1-054",
+      "polish": "Mimo zmęczenia przygotowałam kolację.",
+      "english": "Despite being tired, I prepared dinner."
+    },
+    {
+      "id": "B1-055",
+      "polish": "Mimo zmęczenia znalazłam czas na naukę.",
+      "english": "Despite being tired, I found time to study."
+    },
+    {
+      "id": "B1-056",
+      "polish": "Nie udało nam się zwiedzić muzeum, ponieważ zabrakło czasu.",
+      "english": "We did not manage to visit the museum because we ran out of time."
+    },
+    {
+      "id": "B1-057",
+      "polish": "Nie udało nam się omówić wszystkich spraw, ponieważ zabrakło czasu.",
+      "english": "We did not manage to discuss everything because we ran out of time."
+    },
+    {
+      "id": "B1-058",
+      "polish": "Nie udało nam się zrobić wspólnego zdjęcia, ponieważ zabrakło czasu.",
+      "english": "We did not manage to take a group photo because we ran out of time."
+    },
+    {
+      "id": "B1-059",
+      "polish": "Nie udało nam się obejrzeć całego filmu, ponieważ zabrakło czasu.",
+      "english": "We did not manage to watch the whole film because we ran out of time."
+    },
+    {
+      "id": "B1-060",
+      "polish": "Nie udało nam się porozmawiać z kierownikiem, ponieważ zabrakło czasu.",
+      "english": "We did not manage to talk to the manager because we ran out of time."
+    },
+    {
+      "id": "B1-061",
+      "polish": "Odkąd mieszkam samodzielnie, częściej gotuję w domu.",
+      "english": "Since I started living on my own, I cook at home more often."
+    },
+    {
+      "id": "B1-062",
+      "polish": "Odkąd mieszkam samodzielnie, lepiej planuję wydatki.",
+      "english": "Since I started living on my own, I plan my spending better."
+    },
+    {
+      "id": "B1-063",
+      "polish": "Odkąd mieszkam samodzielnie, bardziej doceniam pomoc rodziców.",
+      "english": "Since I started living on my own, I appreciate my parents’ help more."
+    },
+    {
+      "id": "B1-064",
+      "polish": "Odkąd mieszkam samodzielnie, mam więcej obowiązków.",
+      "english": "Since I started living on my own, I have more responsibilities."
+    },
+    {
+      "id": "B1-065",
+      "polish": "Odkąd mieszkam samodzielnie, nauczyłem się robić zakupy.",
+      "english": "Since I started living on my own, I have learned to do the shopping."
+    },
+    {
+      "id": "B1-066",
+      "polish": "Jeżeli pogoda się poprawi, wybierzemy się w góry.",
+      "english": "If the weather improves, we will go to the mountains."
+    },
+    {
+      "id": "B1-067",
+      "polish": "Jeżeli pogoda się poprawi, zorganizujemy piknik.",
+      "english": "If the weather improves, we will organise a picnic."
+    },
+    {
+      "id": "B1-068",
+      "polish": "Jeżeli pogoda się poprawi, pojedziemy nad jezioro.",
+      "english": "If the weather improves, we will go to the lake."
+    },
+    {
+      "id": "B1-069",
+      "polish": "Jeżeli pogoda się poprawi, będziemy mogli pracować w ogrodzie.",
+      "english": "If the weather improves, we will be able to work in the garden."
+    },
+    {
+      "id": "B1-070",
+      "polish": "Jeżeli pogoda się poprawi, przeniesiemy spotkanie na taras.",
+      "english": "If the weather improves, we will move the gathering to the terrace."
+    },
+    {
+      "id": "B1-071",
+      "polish": "Poprosiła mnie, żebym pomógł jej z zakupami.",
+      "english": "She asked me to help her with the shopping."
+    },
+    {
+      "id": "B1-072",
+      "polish": "Poprosiła mnie, żebym odebrał paczkę.",
+      "english": "She asked me to collect a parcel."
+    },
+    {
+      "id": "B1-073",
+      "polish": "Poprosiła mnie, żebym wyjaśnił zasady gry.",
+      "english": "She asked me to explain the rules of the game."
+    },
+    {
+      "id": "B1-074",
+      "polish": "Poprosiła mnie, żebym poczekał przed budynkiem.",
+      "english": "She asked me to wait outside the building."
+    },
+    {
+      "id": "B1-075",
+      "polish": "Poprosiła mnie, żebym przypomniał jej o spotkaniu.",
+      "english": "She asked me to remind her about the meeting."
+    }
+  ],
+  "B2": [
+    {
+      "id": "B2-001",
+      "polish": "Mimo że przedstawiono nowe dowody, komisja nie zmieniła swojej decyzji.",
+      "english": "Although new evidence was presented, the committee did not change its decision."
+    },
+    {
+      "id": "B2-002",
+      "polish": "Mimo że przedstawiono nowe dowody, komisja odroczyła wydanie opinii.",
+      "english": "Although new evidence was presented, the committee postponed issuing its opinion."
+    },
+    {
+      "id": "B2-003",
+      "polish": "Mimo że przedstawiono nowe dowody, komisja podtrzymała wcześniejsze stanowisko.",
+      "english": "Although new evidence was presented, the committee maintained its previous position."
+    },
+    {
+      "id": "B2-004",
+      "polish": "Mimo że przedstawiono nowe dowody, komisja nie wznowiła postępowania.",
+      "english": "Although new evidence was presented, the committee did not reopen the proceedings."
+    },
+    {
+      "id": "B2-005",
+      "polish": "Mimo że przedstawiono nowe dowody, komisja nie osiągnęła porozumienia.",
+      "english": "Although new evidence was presented, the committee did not reach an agreement."
+    },
+    {
+      "id": "B2-006",
+      "polish": "Wyniki badań zostaną opublikowane po zakończeniu analizy.",
+      "english": "The research results will be published after the analysis is completed."
+    },
+    {
+      "id": "B2-007",
+      "polish": "Wyniki badań zostaną opublikowane pod warunkiem uzyskania zgody.",
+      "english": "The research results will be published provided that permission is obtained."
+    },
+    {
+      "id": "B2-008",
+      "polish": "Wyniki badań zostaną opublikowane niezależnie od ich znaczenia.",
+      "english": "The research results will be published regardless of their significance."
+    },
+    {
+      "id": "B2-009",
+      "polish": "Wyniki badań zostaną opublikowane wraz z opisem zastosowanej metody.",
+      "english": "The research results will be published together with a description of the method used."
+    },
+    {
+      "id": "B2-010",
+      "polish": "Wyniki badań zostaną opublikowane dopiero po sprawdzeniu wszystkich danych.",
+      "english": "The research results will be published only after all the data have been checked."
+    },
+    {
+      "id": "B2-011",
+      "polish": "Im więcej rozmawiam po polsku, tym swobodniej wyrażam swoje myśli.",
+      "english": "The more I speak Polish, the more freely I express my thoughts."
+    },
+    {
+      "id": "B2-012",
+      "polish": "Im więcej rozmawiam po polsku, tym łatwiej rozumiem potoczny język.",
+      "english": "The more I speak Polish, the more easily I understand colloquial language."
+    },
+    {
+      "id": "B2-013",
+      "polish": "Im więcej rozmawiam po polsku, tym rzadziej zastanawiam się nad końcówkami.",
+      "english": "The more I speak Polish, the less often I stop to think about endings."
+    },
+    {
+      "id": "B2-014",
+      "polish": "Im więcej rozmawiam po polsku, tym chętniej uczestniczę w dyskusjach.",
+      "english": "The more I speak Polish, the more willingly I take part in discussions."
+    },
+    {
+      "id": "B2-015",
+      "polish": "Im więcej rozmawiam po polsku, tym większą mam ochotę na dalszą naukę.",
+      "english": "The more I speak Polish, the more motivated I am to keep learning."
+    },
+    {
+      "id": "B2-016",
+      "polish": "Gdybyśmy wcześniej przewidzieli trudności, moglibyśmy uniknąć opóźnienia.",
+      "english": "If we had anticipated the difficulties earlier, we could have avoided the delay."
+    },
+    {
+      "id": "B2-017",
+      "polish": "Gdybyśmy wcześniej przewidzieli trudności, zdążylibyśmy zmienić harmonogram.",
+      "english": "If we had anticipated the difficulties earlier, we would have had time to change the schedule."
+    },
+    {
+      "id": "B2-018",
+      "polish": "Gdybyśmy wcześniej przewidzieli trudności, przygotowalibyśmy dodatkowe materiały.",
+      "english": "If we had anticipated the difficulties earlier, we would have prepared extra materials."
+    },
+    {
+      "id": "B2-019",
+      "polish": "Gdybyśmy wcześniej przewidzieli trudności, nie ponieślibyśmy takich kosztów.",
+      "english": "If we had anticipated the difficulties earlier, we would not have incurred such costs."
+    },
+    {
+      "id": "B2-020",
+      "polish": "Gdybyśmy wcześniej przewidzieli trudności, zwrócilibyśmy się o pomoc.",
+      "english": "If we had anticipated the difficulties earlier, we would have asked for help."
+    },
+    {
+      "id": "B2-021",
+      "polish": "Zgodnie z obowiązującymi zasadami każdy wniosek wymaga uzasadnienia.",
+      "english": "Under the current rules, every application requires a justification."
+    },
+    {
+      "id": "B2-022",
+      "polish": "Zgodnie z obowiązującymi zasadami dokumenty należy złożyć osobiście.",
+      "english": "Under the current rules, documents must be submitted in person."
+    },
+    {
+      "id": "B2-023",
+      "polish": "Zgodnie z obowiązującymi zasadami uczestnicy mają prawo do odwołania.",
+      "english": "Under the current rules, participants have the right to appeal."
+    },
+    {
+      "id": "B2-024",
+      "polish": "Zgodnie z obowiązującymi zasadami zmiany wymagają pisemnej zgody.",
+      "english": "Under the current rules, changes require written consent."
+    },
+    {
+      "id": "B2-025",
+      "polish": "Zgodnie z obowiązującymi zasadami termin nie podlega przedłużeniu.",
+      "english": "Under the current rules, the deadline cannot be extended."
+    },
+    {
+      "id": "B2-026",
+      "polish": "Analizując zebrane dane, badaczka zauważyła istotną rozbieżność.",
+      "english": "While analysing the collected data, the researcher noticed a significant discrepancy."
+    },
+    {
+      "id": "B2-027",
+      "polish": "Analizując zebrane dane, badaczka odkryła błąd w obliczeniach.",
+      "english": "While analysing the collected data, the researcher discovered an error in the calculations."
+    },
+    {
+      "id": "B2-028",
+      "polish": "Analizując zebrane dane, badaczka porównała wyniki obu grup.",
+      "english": "While analysing the collected data, the researcher compared the results of both groups."
+    },
+    {
+      "id": "B2-029",
+      "polish": "Analizując zebrane dane, badaczka zakwestionowała pierwotne założenia.",
+      "english": "While analysing the collected data, the researcher questioned the original assumptions."
+    },
+    {
+      "id": "B2-030",
+      "polish": "Analizując zebrane dane, badaczka dostrzegła potrzebę dalszych badań.",
+      "english": "While analysing the collected data, the researcher identified a need for further research."
+    },
+    {
+      "id": "B2-031",
+      "polish": "Ukończywszy raport, zespół przekazał go do oceny.",
+      "english": "Having completed the report, the team submitted it for review."
+    },
+    {
+      "id": "B2-032",
+      "polish": "Ukończywszy raport, zespół przystąpił do kolejnego etapu.",
+      "english": "Having completed the report, the team proceeded to the next stage."
+    },
+    {
+      "id": "B2-033",
+      "polish": "Ukończywszy raport, zespół zorganizował spotkanie podsumowujące.",
+      "english": "Having completed the report, the team organised a wrap-up meeting."
+    },
+    {
+      "id": "B2-034",
+      "polish": "Ukończywszy raport, zespół omówił najważniejsze wnioski.",
+      "english": "Having completed the report, the team discussed the main conclusions."
+    },
+    {
+      "id": "B2-035",
+      "polish": "Ukończywszy raport, zespół rozpoczął przygotowania do prezentacji.",
+      "english": "Having completed the report, the team began preparing for the presentation."
+    },
+    {
+      "id": "B2-036",
+      "polish": "Wbrew wcześniejszym zapowiedziom nie zwiększono budżetu.",
+      "english": "Contrary to earlier announcements, the budget was not increased."
+    },
+    {
+      "id": "B2-037",
+      "polish": "Wbrew wcześniejszym zapowiedziom spotkanie odbyło się bez udziału publiczności.",
+      "english": "Contrary to earlier announcements, the meeting took place without an audience."
+    },
+    {
+      "id": "B2-038",
+      "polish": "Wbrew wcześniejszym zapowiedziom projekt nie został zatwierdzony.",
+      "english": "Contrary to earlier announcements, the project was not approved."
+    },
+    {
+      "id": "B2-039",
+      "polish": "Wbrew wcześniejszym zapowiedziom nie opublikowano pełnych wyników.",
+      "english": "Contrary to earlier announcements, the full results were not published."
+    },
+    {
+      "id": "B2-040",
+      "polish": "Wbrew wcześniejszym zapowiedziom termin realizacji uległ zmianie.",
+      "english": "Contrary to earlier announcements, the completion date was changed."
+    },
+    {
+      "id": "B2-041",
+      "polish": "Nie ulega wątpliwości, że potrzebujemy bardziej szczegółowych danych.",
+      "english": "There is no doubt that we need more detailed data."
+    },
+    {
+      "id": "B2-042",
+      "polish": "Nie ulega wątpliwości, że decyzja będzie miała długotrwałe skutki.",
+      "english": "There is no doubt that the decision will have lasting effects."
+    },
+    {
+      "id": "B2-043",
+      "polish": "Nie ulega wątpliwości, że należy uwzględnić różne punkty widzenia.",
+      "english": "There is no doubt that different viewpoints must be taken into account."
+    },
+    {
+      "id": "B2-044",
+      "polish": "Nie ulega wątpliwości, że problem wymaga szerszej dyskusji.",
+      "english": "There is no doubt that the issue requires a broader discussion."
+    },
+    {
+      "id": "B2-045",
+      "polish": "Nie ulega wątpliwości, że przedstawione argumenty zasługują na uwagę.",
+      "english": "There is no doubt that the arguments presented deserve attention."
+    },
+    {
+      "id": "B2-046",
+      "polish": "Niezależnie od tego, kto podejmie decyzję, trzeba będzie ją uzasadnić.",
+      "english": "Regardless of who makes the decision, it will have to be justified."
+    },
+    {
+      "id": "B2-047",
+      "polish": "Niezależnie od tego, kto podejmie decyzję, wszyscy powinni poznać jej przyczyny.",
+      "english": "Regardless of who makes the decision, everyone should learn the reasons for it."
+    },
+    {
+      "id": "B2-048",
+      "polish": "Niezależnie od tego, kto podejmie decyzję, konieczne będzie przestrzeganie procedur.",
+      "english": "Regardless of who makes the decision, the procedures will have to be followed."
+    },
+    {
+      "id": "B2-049",
+      "polish": "Niezależnie od tego, kto podejmie decyzję, odpowiedzialność pozostanie po stronie zarządu.",
+      "english": "Regardless of who makes the decision, responsibility will remain with the management board."
+    },
+    {
+      "id": "B2-050",
+      "polish": "Niezależnie od tego, kto podejmie decyzję, należy poinformować zainteresowane osoby.",
+      "english": "Regardless of who makes the decision, the people concerned must be informed."
+    },
+    {
+      "id": "B2-051",
+      "polish": "O ile dobrze zrozumiałem przedstawioną propozycję, koszty zostaną podzielone równo.",
+      "english": "If I understood the proposal correctly, the costs will be shared equally."
+    },
+    {
+      "id": "B2-052",
+      "polish": "O ile dobrze zrozumiałem przedstawioną propozycję, termin można jeszcze negocjować.",
+      "english": "If I understood the proposal correctly, the deadline is still negotiable."
+    },
+    {
+      "id": "B2-053",
+      "polish": "O ile dobrze zrozumiałem przedstawioną propozycję, udział w projekcie jest dobrowolny.",
+      "english": "If I understood the proposal correctly, participation in the project is voluntary."
+    },
+    {
+      "id": "B2-054",
+      "polish": "O ile dobrze zrozumiałem przedstawioną propozycję, ostateczna decyzja jeszcze nie zapadła.",
+      "english": "If I understood the proposal correctly, the final decision has not yet been made."
+    },
+    {
+      "id": "B2-055",
+      "polish": "O ile dobrze zrozumiałem przedstawioną propozycję, umowa obejmuje również szkolenie.",
+      "english": "If I understood the proposal correctly, the agreement also includes training."
+    },
+    {
+      "id": "B2-056",
+      "polish": "Rozwiązanie, na którym dotychczas polegaliśmy, okazało się niewystarczające.",
+      "english": "The solution we have relied on so far has proved insufficient."
+    },
+    {
+      "id": "B2-057",
+      "polish": "Rozwiązanie, na którym dotychczas polegaliśmy, wymaga gruntownej aktualizacji.",
+      "english": "The solution we have relied on so far needs a thorough update."
+    },
+    {
+      "id": "B2-058",
+      "polish": "Rozwiązanie, na którym dotychczas polegaliśmy, nie spełnia już naszych oczekiwań.",
+      "english": "The solution we have relied on so far no longer meets our expectations."
+    },
+    {
+      "id": "B2-059",
+      "polish": "Rozwiązanie, na którym dotychczas polegaliśmy, zostało zastąpione nowym systemem.",
+      "english": "The solution we have relied on so far has been replaced by a new system."
+    },
+    {
+      "id": "B2-060",
+      "polish": "Rozwiązanie, na którym dotychczas polegaliśmy, może prowadzić do nieprzewidzianych problemów.",
+      "english": "The solution we have relied on so far may lead to unforeseen problems."
+    },
+    {
+      "id": "B2-061",
+      "polish": "Zamiast ograniczać się do krytyki, warto zaproponować konkretne rozwiązanie.",
+      "english": "Instead of merely criticising, it is worth proposing a specific solution."
+    },
+    {
+      "id": "B2-062",
+      "polish": "Zamiast ograniczać się do krytyki, należałoby wskazać możliwe usprawnienia.",
+      "english": "Instead of merely criticising, we should identify possible improvements."
+    },
+    {
+      "id": "B2-063",
+      "polish": "Zamiast ograniczać się do krytyki, spróbujmy zrozumieć przyczyny problemu.",
+      "english": "Instead of merely criticising, let us try to understand the causes of the problem."
+    },
+    {
+      "id": "B2-064",
+      "polish": "Zamiast ograniczać się do krytyki, powinniśmy wspólnie opracować plan.",
+      "english": "Instead of merely criticising, we should develop a plan together."
+    },
+    {
+      "id": "B2-065",
+      "polish": "Zamiast ograniczać się do krytyki, skupmy się na dostępnych możliwościach.",
+      "english": "Instead of merely criticising, let us focus on the available options."
+    },
+    {
+      "id": "B2-066",
+      "polish": "Dopóki nie zostaną wyjaśnione wszystkie wątpliwości, nie podpiszemy umowy.",
+      "english": "Until all concerns have been clarified, we will not sign the agreement."
+    },
+    {
+      "id": "B2-067",
+      "polish": "Dopóki nie zostaną wyjaśnione wszystkie wątpliwości, realizacja projektu pozostanie wstrzymana.",
+      "english": "Until all concerns have been clarified, the project will remain on hold."
+    },
+    {
+      "id": "B2-068",
+      "polish": "Dopóki nie zostaną wyjaśnione wszystkie wątpliwości, nie można zatwierdzić wydatków.",
+      "english": "Until all concerns have been clarified, the expenditure cannot be approved."
+    },
+    {
+      "id": "B2-069",
+      "polish": "Dopóki nie zostaną wyjaśnione wszystkie wątpliwości, komisja nie wyda ostatecznej opinii.",
+      "english": "Until all concerns have been clarified, the committee will not issue its final opinion."
+    },
+    {
+      "id": "B2-070",
+      "polish": "Dopóki nie zostaną wyjaśnione wszystkie wątpliwości, należy zachować szczególną ostrożność.",
+      "english": "Until all concerns have been clarified, particular caution is required."
+    },
+    {
+      "id": "B2-071",
+      "polish": "Choć propozycja wydaje się korzystna, trzeba rozważyć jej długofalowe skutki.",
+      "english": "Although the proposal seems beneficial, its long-term effects need to be considered."
+    },
+    {
+      "id": "B2-072",
+      "polish": "Choć propozycja wydaje się korzystna, nie uwzględnia potrzeb wszystkich uczestników.",
+      "english": "Although the proposal seems beneficial, it does not address the needs of all participants."
+    },
+    {
+      "id": "B2-073",
+      "polish": "Choć propozycja wydaje się korzystna, wiąże się z pewnym ryzykiem.",
+      "english": "Although the proposal seems beneficial, it involves some risk."
+    },
+    {
+      "id": "B2-074",
+      "polish": "Choć propozycja wydaje się korzystna, wymaga dokładniejszego omówienia.",
+      "english": "Although the proposal seems beneficial, it requires a more detailed discussion."
+    },
+    {
+      "id": "B2-075",
+      "polish": "Choć propozycja wydaje się korzystna, nie powinna być przyjmowana bez zastrzeżeń.",
+      "english": "Although the proposal seems beneficial, it should not be accepted without reservations."
+    }
+  ]
+}

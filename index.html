@@ -51,6 +51,10 @@
             Learn Vocabulary
         </button>
 
+        <button id="listening-button" type="button">
+            Listening
+        </button>
+
         <button id="quiz-button" type="button" disabled>
             Vocabulary Quiz
         </button>
@@ -236,7 +240,56 @@
             Back to menu
         </button>
     </section>
+    <section id="listening-screen" hidden>
+    <h2 id="listening-title">Listening</h2>
 
+    <p>Listen and write the sentence in Polish.</p>
+
+    <p id="listening-counter"></p>
+    <p id="listening-score"></p>
+    <p id="listening-status" role="status"></p>
+
+    <button id="listening-play-button" type="button" disabled>
+        🔊 Listen
+    </button>
+
+    <button id="listening-slow-button" type="button" disabled>
+        🔊 Listen slowly
+    </button>
+    <button id="listening-review-button" type="button" hidden>
+        Review mistakes
+    </button>
+    
+    <form id="listening-form" hidden>
+        <label for="listening-answer">What did you hear?</label>
+
+        <input
+            id="listening-answer"
+            type="text"
+            lang="pl"
+            autocomplete="off"
+            autocapitalize="none"
+            spellcheck="false"
+            required
+        >
+
+        <button id="listening-check-button" type="submit">
+            Check
+        </button>
+    </form>
+
+    <p id="listening-feedback" role="status"></p>
+    <p id="listening-correct" lang="pl"></p>
+    <p id="listening-translation" lang="en"></p>
+
+    <button id="listening-next-button" type="button" disabled>
+        Next sentence
+    </button>
+
+    <button id="listening-back-button" type="button">
+        Back to menu
+    </button>
+</section>
     <!-- JavaScript loads after all screen elements. -->
     <script src="app.js"></script>
 </body>

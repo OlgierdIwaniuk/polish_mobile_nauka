@@ -1,4 +1,4 @@
-const CACHE_NAME = "polish-learning-v1";
+const CACHE_NAME = "polish-learning-v2";
 
 const APP_FILES = [
     "./",
@@ -13,7 +13,8 @@ const APP_FILES = [
     "./grammar_mixed.json",
     "./icons/icon-192.png",
     "./icons/icon-512.png",
-    "./icons/apple-touch-icon.png"
+    "./icons/apple-touch-icon.png",
+    "./listening_sentences.json",
 ];
 
 // Zapisuje wszystkie pliki potrzebne do działania offline.
