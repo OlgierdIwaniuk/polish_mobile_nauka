@@ -100,9 +100,6 @@
             Next word
         </button>
 
-        <button id="practice-button" type="button">
-            Practice these words
-        </button>
 
         <button id="learn-back-button" type="button">
             Back to menu
@@ -290,7 +287,45 @@
         Back to menu
     </button>
 </section>
+<hr>
+
+<h2>Shared vocabulary</h2>
+
+<p id="auth-status" role="status">
+    Connecting...
+</p>
+
+<form id="login-form">
+    <label for="login-email">Email</label>
+    <input
+        id="login-email"
+        type="email"
+        autocomplete="username"
+        required
+    >
+
+    <label for="login-password">Password</label>
+    <input
+        id="login-password"
+        type="password"
+        autocomplete="current-password"
+        required
+    >
+
+    <button id="login-button" type="submit" disabled>
+        Sign in
+    </button>
+</form>
+
+<button id="logout-button" type="button" hidden>
+    Sign out
+</button>
+
+<p id="editor-status" role="status"></p>
     <!-- JavaScript loads after all screen elements. -->
     <script src="app.js"></script>
+    <script src="supabase-config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="auth.js"></script>
 </body>
 </html>

@@ -43,7 +43,6 @@ const quizBackButton = document.getElementById("quiz-back-button");
 const reviewButton = document.getElementById("review-button");
 const statisticsDisplay = document.getElementById("statistics-display");
 const acceptAnswerButton = document.getElementById("accept-answer-button");
-const practiceButton = document.getElementById("practice-button");
 const listeningReviewButton =document.getElementById("listening-review-button");
 
 
@@ -1122,7 +1121,6 @@ quizForm.addEventListener("submit", checkAnswer);
 levelSelect.addEventListener("change", updateLevel);
 acceptAnswerButton.addEventListener("click", acceptCurrentAnswer);
 pronounceButton.addEventListener("click", pronounceWord);
-practiceButton.addEventListener("click", practiceLearningWords);
 // Przywraca ostatnio wybrany poziom.
 try {
     const savedLevel = localStorage.getItem("selectedLevel");
