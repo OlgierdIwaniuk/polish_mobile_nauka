@@ -511,7 +511,17 @@
     // ========================================
     // URUCHOMIENIE
     // ========================================
+    window.addEventListener(
+    "shared-vocabulary-changed",
+    async function () {
+        // Kończy poprzednie pobieranie, a potem pobiera nowy stan.
+        if (sharedDownload) {
+            await sharedDownload;
+        }
 
+        await loadSharedVocabulary();
+    }
+);
     refreshPermissions();
     loadSharedVocabulary();
 })();

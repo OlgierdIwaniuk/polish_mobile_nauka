@@ -1,4 +1,4 @@
-const CACHE_NAME = "polish-learning-v4";
+const CACHE_NAME = "polish-learning-v5";
 
 const APP_FILES = [
     "./",
@@ -17,7 +17,8 @@ const APP_FILES = [
     "./listening_sentences.json",
     "./supabase-config.js",
     "./auth.js",
-    ".shared-vocabulary.js"
+    ".shared-vocabulary.js",
+    "./admin-vocabulary.js",
 ];
 
 // Zapisuje wszystkie pliki potrzebne do działania offline.

@@ -349,4 +349,37 @@ form {
 
 #shared-word-status {
     overflow-wrap: anywhere;
+}\#admin-vocabulary-panel {
+    margin-top: 20px;
+    padding: 14px;
+    border: 1px solid #aab7ae;
+    border-radius: 12px;
+    text-align: left;
+}
+
+#admin-vocabulary-panel summary {
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#admin-word-form {
+    margin: 20px 0;
+    padding: 12px;
+    background-color: #eef4fa;
+    border-radius: 10px;
+}
+
+#admin-word-form label {
+    margin-top: 12px;
+}
+
+.admin-word-card {
+    padding: 16px 0;
+    border-bottom: 1px solid #dce4dc;
+    overflow-wrap: anywhere;
+}
+
+.admin-delete-button {
+    background-color: #932929;
 }
