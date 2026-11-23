@@ -627,7 +627,52 @@ tutorialBackButton.addEventListener("click", leaveTutorial);
 // Wybiera słowa przypisane do aktualnego poziomu.
 function updateLevel() {
     const selectedLevel = levelSelect.value;
-    const entries = vocabularyByLevel[selectedLevel] || [];
+    const baseEntries = vocabularyByLevel[selectedLevel] || [];
+
+const sharedEntries = (window.sharedVocabularyEntries || [])
+    .filter(function (entry) {
+        return entry.level === selectedLevel;
+    })
+    .map(function (entry) {
+        return {
+            polish: [entry.polish, ...entry.synonyms],
+            english: entry.english
+        };
+    });
+
+// Łączy bazę podstawową ze wspólnymi słowami.
+// Dla powtarzających się haseł scala polskie synonimy.
+const mergedEntries = new Map();
+
+[...baseEntries, ...sharedEntries].forEach(function (entry) {
+    const key = JSON.stringify([
+        normalizeAnswer(entry.polish[0]),
+        normalizeAnswer(entry.english)
+    ]);
+
+    if (!mergedEntries.has(key)) {
+        mergedEntries.set(key, {
+            polish: [...entry.polish],
+            english: entry.english
+        });
+
+        return;
+    }
+
+    const existing = mergedEntries.get(key);
+
+    entry.polish.forEach(function (answer) {
+        const alreadyExists = existing.polish.some(function (saved) {
+            return normalizeAnswer(saved) === normalizeAnswer(answer);
+        });
+
+        if (!alreadyExists) {
+            existing.polish.push(answer);
+        }
+    });
+});
+
+const entries = [...mergedEntries.values()];
 
     words = entries.map(function (entry) {
         return {

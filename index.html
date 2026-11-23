@@ -19,10 +19,15 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.webmanifest">
+    <link
+        rel="apple-touch-icon"
+        href="icons/apple-touch-icon.png"
+    >
 
-    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-
-    <meta name="apple-mobile-web-app-title" content="Learn Polish">
+    <meta
+        name="apple-mobile-web-app-title"
+        content="Learn Polish"
+    >
 </head>
 
 <body>
@@ -32,7 +37,7 @@
         This app needs JavaScript to load vocabulary and exercises.
     </noscript>
 
-    <!-- Main menu -->
+    <!-- MAIN MENU -->
     <section id="menu-screen" aria-label="Main menu">
         <label for="level-select">Choose your level</label>
 
@@ -75,10 +80,109 @@
             Grammar Tutorial
         </button>
 
+        <!-- ACCOUNT -->
+        <hr>
+
+        <h2>Shared vocabulary</h2>
+
+        <p id="auth-status" role="status">
+            Connecting...
+        </p>
+
+        <form id="login-form">
+            <label for="login-email">Email</label>
+
+            <input
+                id="login-email"
+                type="email"
+                autocomplete="username"
+                autocapitalize="none"
+                spellcheck="false"
+                required
+            >
+
+            <label for="login-password">Password</label>
+
+            <input
+                id="login-password"
+                type="password"
+                autocomplete="current-password"
+                required
+            >
+
+            <button id="login-button" type="submit" disabled>
+                Sign in
+            </button>
+        </form>
+
+        <button id="logout-button" type="button" hidden>
+            Sign out
+        </button>
+
+        <p id="editor-status" role="status"></p>
+
+        <!-- ADD SHARED VOCABULARY -->
+        <details id="shared-word-panel" hidden>
+            <summary>Add vocabulary</summary>
+
+            <form id="shared-word-form">
+                <label for="shared-polish">
+                    Polish word or phrase
+                </label>
+
+                <input
+                    id="shared-polish"
+                    type="text"
+                    lang="pl"
+                    maxlength="150"
+                    required
+                >
+
+                <label for="shared-english">
+                    English translation
+                </label>
+
+                <input
+                    id="shared-english"
+                    type="text"
+                    lang="en"
+                    maxlength="200"
+                    required
+                >
+
+                <label for="shared-synonyms">
+                    Polish synonyms — separate with semicolons
+                </label>
+
+                <input
+                    id="shared-synonyms"
+                    type="text"
+                    lang="pl"
+                    placeholder="synonym one; synonym two"
+                    maxlength="1500"
+                >
+
+                <label for="shared-level">Level</label>
+
+                <select id="shared-level">
+                    <option value="A1">A1</option>
+                    <option value="A2">A2</option>
+                    <option value="B1">B1</option>
+                    <option value="B2">B2</option>
+                </select>
+
+                <button id="shared-save-button" type="submit">
+                    Add to shared vocabulary
+                </button>
+            </form>
+        </details>
+
+        <p id="shared-word-status" role="status"></p>
+
         <p id="statistics-display"></p>
     </section>
 
-    <!-- Vocabulary learning -->
+    <!-- VOCABULARY LEARNING -->
     <section
         id="learn-screen"
         aria-label="Learn vocabulary"
@@ -100,13 +204,12 @@
             Next word
         </button>
 
-
         <button id="learn-back-button" type="button">
             Back to menu
         </button>
     </section>
 
-    <!-- Vocabulary quiz -->
+    <!-- VOCABULARY QUIZ -->
     <section
         id="quiz-screen"
         aria-labelledby="quiz-title"
@@ -167,7 +270,7 @@
         </button>
     </section>
 
-    <!-- Grammar exercises -->
+    <!-- GRAMMAR EXERCISES -->
     <section
         id="grammar-screen"
         aria-labelledby="grammar-title"
@@ -217,7 +320,7 @@
         </button>
     </section>
 
-    <!-- Grammar tutorial -->
+    <!-- GRAMMAR TUTORIAL -->
     <section
         id="tutorial-screen"
         aria-labelledby="tutorial-title"
@@ -237,95 +340,88 @@
             Back to menu
         </button>
     </section>
-    <section id="listening-screen" hidden>
-    <h2 id="listening-title">Listening</h2>
 
-    <p>Listen and write the sentence in Polish.</p>
+    <!-- LISTENING -->
+    <section
+        id="listening-screen"
+        aria-labelledby="listening-title"
+        hidden
+    >
+        <h2 id="listening-title">Listening</h2>
 
-    <p id="listening-counter"></p>
-    <p id="listening-score"></p>
-    <p id="listening-status" role="status"></p>
+        <p>Listen and write the sentence in Polish.</p>
 
-    <button id="listening-play-button" type="button" disabled>
-        🔊 Listen
-    </button>
+        <p id="listening-counter"></p>
+        <p id="listening-score"></p>
+        <p id="listening-status" role="status"></p>
 
-    <button id="listening-slow-button" type="button" disabled>
-        🔊 Listen slowly
-    </button>
-    <button id="listening-review-button" type="button" hidden>
-        Review mistakes
-    </button>
-    
-    <form id="listening-form" hidden>
-        <label for="listening-answer">What did you hear?</label>
-
-        <input
-            id="listening-answer"
-            type="text"
-            lang="pl"
-            autocomplete="off"
-            autocapitalize="none"
-            spellcheck="false"
-            required
+        <button
+            id="listening-play-button"
+            type="button"
+            disabled
         >
-
-        <button id="listening-check-button" type="submit">
-            Check
+            🔊 Listen
         </button>
-    </form>
 
-    <p id="listening-feedback" role="status"></p>
-    <p id="listening-correct" lang="pl"></p>
-    <p id="listening-translation" lang="en"></p>
+        <button
+            id="listening-slow-button"
+            type="button"
+            disabled
+        >
+            🔊 Listen slowly
+        </button>
 
-    <button id="listening-next-button" type="button" disabled>
-        Next sentence
-    </button>
+        <form id="listening-form" hidden>
+            <label for="listening-answer">
+                What did you hear?
+            </label>
 
-    <button id="listening-back-button" type="button">
-        Back to menu
-    </button>
-</section>
-<hr>
+            <input
+                id="listening-answer"
+                type="text"
+                lang="pl"
+                autocomplete="off"
+                autocapitalize="none"
+                spellcheck="false"
+                enterkeyhint="done"
+                required
+            >
 
-<h2>Shared vocabulary</h2>
+            <button id="listening-check-button" type="submit">
+                Check
+            </button>
+        </form>
 
-<p id="auth-status" role="status">
-    Connecting...
-</p>
+        <p id="listening-feedback" role="status"></p>
+        <p id="listening-correct" lang="pl"></p>
+        <p id="listening-translation" lang="en"></p>
 
-<form id="login-form">
-    <label for="login-email">Email</label>
-    <input
-        id="login-email"
-        type="email"
-        autocomplete="username"
-        required
-    >
+        <button
+            id="listening-next-button"
+            type="button"
+            disabled
+        >
+            Next sentence
+        </button>
 
-    <label for="login-password">Password</label>
-    <input
-        id="login-password"
-        type="password"
-        autocomplete="current-password"
-        required
-    >
+        <button
+            id="listening-review-button"
+            type="button"
+            hidden
+        >
+            Review mistakes
+        </button>
 
-    <button id="login-button" type="submit" disabled>
-        Sign in
-    </button>
-</form>
+        <button id="listening-back-button" type="button">
+            Back to menu
+        </button>
+    </section>
 
-<button id="logout-button" type="button" hidden>
-    Sign out
-</button>
-
-<p id="editor-status" role="status"></p>
-    <!-- JavaScript loads after all screen elements. -->
+    <!-- Keep this script order. -->
     <script src="app.js"></script>
     <script src="supabase-config.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="auth.js"></script>
+    <script src="shared-vocabulary.js"></script>
 </body>
 </html>

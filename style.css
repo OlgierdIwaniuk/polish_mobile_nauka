@@ -329,3 +329,24 @@ form {
     padding: 2px 3px;
     border-radius: 4px;
 }
+#shared-word-panel {
+    margin-top: 20px;
+    padding: 14px;
+    border: 1px solid #aab7ae;
+    border-radius: 12px;
+    text-align: left;
+}
+
+#shared-word-panel summary {
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#shared-word-form label {
+    margin-top: 16px;
+}
+
+#shared-word-status {
+    overflow-wrap: anywhere;
+}

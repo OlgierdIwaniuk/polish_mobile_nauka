@@ -16,7 +16,8 @@ const APP_FILES = [
     "./icons/apple-touch-icon.png",
     "./listening_sentences.json",
     "./supabase-config.js",
-    "./auth.js"
+    "./auth.js",
+    ".shared-vocabulary.js"
 ];
 
 // Zapisuje wszystkie pliki potrzebne do działania offline.
